@@ -1,0 +1,29 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+
+.app-main {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.app-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* 모바일 최적화 */
+@media (max-width: 767px) {
+  .app-main {
+    padding: 0.75rem;
+  }
+  
+  .app-content {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,42 @@
+.tag-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  min-height: 44px;
+  padding: 0.75rem 1rem;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.tag-button:active {
+  background-color: #e0e0e0;
+  transform: scale(0.98);
+}
+
+.tag-button-icon {
+  font-size: 1.1rem;
+}
+
+.tag-button-label {
+  font-size: 0.95rem;
+}
+
+@media (min-width: 768px) {
+  .tag-button {
+    font-size: 1.05rem;
+  }
+  
+  .tag-button:hover {
+    background-color: #eeeeee;
+  }
+}
+
