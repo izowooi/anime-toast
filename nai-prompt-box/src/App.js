@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import CategorySection from './components/CategorySection';
 import Toast from './components/Toast';
-import { artTags } from './data/tags';
+import { artTags, poseTags } from './data/tags';
 
 function App() {
   const [toastMessage, setToastMessage] = useState('');
@@ -26,6 +26,11 @@ function App() {
           <CategorySection
             categoryName="작화"
             tags={artTags}
+            onCopy={handleCopy}
+          />
+          <CategorySection
+            categoryName="포즈"
+            tags={poseTags}
             onCopy={handleCopy}
           />
         </div>

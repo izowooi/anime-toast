@@ -5,3 +5,22 @@ export const artTags = {
   네거티브1: "blank page, logo, watermark, too many watermarks, reference, signature, artist name, dated, artistic error, scan artifacts, jpeg artifacts, upscaled, aliasing, film grain, heavy film grain, dithering, chromatic aberration, digital dissolve, artist:xinzoruo, one-hour drawing challenge, toon (style), 1990s (style), 4koma, 2koma, mutation, deformed, distorted, disfigured, bad anatomy, unnatural hair, bad face, mob face, bad eyes, empty eyes, bad proportions, bad limbs, amputee, bad arm, bad hands, bad hand structure, six fingers extra digits, fewer digits, bad leg, extra leg, distorted composition, bad perspective, disorganized colors, unfinished, incomplete, displeasing, very displeasing, unsatisfactory, inadequate, deficient, subpar, poor, blurry, lowres, worst quality, bad quality, fewer details, bad portrait, bad illustration"
 };
 
+// 포즈 대분류 태그 데이터
+export const poseTags = {
+  "v pose": "v pose",
+  "w pose": "w pose",
+  "hands on own cheek": "hands on own cheek",
+  "licking finger": "licking finger",
+  "thumb up": "thumb up",
+  "salute": "salute",
+  "4-finger heart hands": "4-finger heart hands",
+  "finger heart": "finger heart",
+  "shushing": "shushing",
+  "hand over own mouth": "hand over own mouth",
+  "hand on own cheek": "hand on own cheek",
+  "chin rest": "chin rest",
+  "index finger raised": "index finger raised",
+  "finger gun": "finger gun",
+  "heart hands": "heart hands"
+};
+
