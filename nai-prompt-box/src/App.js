@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import CategorySection from './components/CategorySection';
 import Toast from './components/Toast';
-import { artTags, poseTags } from './data/tags';
+import { artTags, poseTags, categoryConfig } from './data/tags';
 
 function App() {
   const [toastMessage, setToastMessage] = useState('');
@@ -24,14 +24,16 @@ function App() {
       <main className="app-main">
         <div className="app-content">
           <CategorySection
-            categoryName="작화"
+            categoryName={categoryConfig.art.name}
             tags={artTags}
             onCopy={handleCopy}
+            wildcardEnabled={categoryConfig.art.wildcardEnabled}
           />
           <CategorySection
-            categoryName="포즈"
+            categoryName={categoryConfig.pose.name}
             tags={poseTags}
             onCopy={handleCopy}
+            wildcardEnabled={categoryConfig.pose.wildcardEnabled}
           />
         </div>
       </main>

@@ -22,6 +22,26 @@
   transform: scale(0.98);
 }
 
+.tag-button.multi-mode {
+  justify-content: flex-start;
+}
+
+.tag-button.selected {
+  background-color: #61dafb;
+  border-color: #61dafb;
+  color: #282c34;
+  font-weight: 600;
+}
+
+.tag-button.selected:active {
+  background-color: #4fc3f7;
+}
+
+.tag-button-checkbox {
+  font-size: 1.2rem;
+  margin-right: 0.25rem;
+}
+
 .tag-button-icon {
   font-size: 1.1rem;
 }
@@ -34,9 +54,13 @@
   .tag-button {
     font-size: 1.05rem;
   }
-  
+
   .tag-button:hover {
     background-color: #eeeeee;
+  }
+
+  .tag-button.selected:hover {
+    background-color: #4fc3f7;
   }
 }
 

@@ -1,3 +1,15 @@
+// 카테고리 설정 (메타데이터)
+export const categoryConfig = {
+  art: {
+    name: '작화',
+    wildcardEnabled: false
+  },
+  pose: {
+    name: '포즈',
+    wildcardEnabled: true
+  }
+};
+
 // 작화 대분류 태그 데이터
 export const artTags = {
   그림체1: "1girl, solo, 1.8::artist:kim eb::, 1.65::artist:quasarcake::, 1.6::artist:bm94199 ::, 1.6::artist:torino aqua::, 1.6::artist:yoya yogurt::, 1.3::artist:qiandaiyiyu::, 1.1::artist:dishwasher1910 ::, 1.1::artist:96yottea::, 1.1::artist:freng::, 0.6::artist:cutesexyrobutts::, 0.4::artist:henriiku (ahemaru)::, 0.3::artist:mx2j::, year 2025, year 2024, 2::3d, blender (medium)::, detailed eyes, silky skin, detailed skin texture, ultra detailed, high detail, masterpiece, best quality, very aesthetic, highres, best illustration, novel illustration, -3::simple illustration::, -1::censored::, -3::artist collaboration::, 1.5::medieval fantasy::",
