@@ -1,0 +1,884 @@
+{
+  "characters": [
+    {
+      "id": "ram_rezero",
+      "name": "ram",
+      "name_ko": "람",
+      "series": "re:zero kara hajimeru isekai seikatsu",
+      "series_ko": "Re:제로부터 시작하는 이세계 생활",
+      "tag": "ram (re:zero), re:zero kara hajimeru isekai seikatsu"
+    },
+    {
+      "id": "rem_rezero",
+      "name": "rem",
+      "name_ko": "렘",
+      "series": "re:zero kara hajimeru isekai seikatsu",
+      "series_ko": "Re:제로부터 시작하는 이세계 생활",
+      "tag": "rem (re:zero), re:zero kara hajimeru isekai seikatsu"
+    },
+    {
+      "id": "beatrice_rezero",
+      "name": "beatrice",
+      "name_ko": "베아트리스",
+      "series": "re:zero kara hajimeru isekai seikatsu",
+      "series_ko": "Re:제로부터 시작하는 이세계 생활",
+      "tag": "beatrice (re:zero), re:zero kara hajimeru isekai seikatsu"
+    },
+    {
+      "id": "emilia_rezero",
+      "name": "emilia",
+      "name_ko": "에밀리아",
+      "series": "re:zero kara hajimeru isekai seikatsu",
+      "series_ko": "Re:제로부터 시작하는 이세계 생활",
+      "tag": "emilia (re:zero), re:zero kara hajimeru isekai seikatsu"
+    },
+    {
+      "id": "echidna_rezero",
+      "name": "echidna",
+      "name_ko": "에키드나",
+      "series": "re:zero kara hajimeru isekai seikatsu",
+      "series_ko": "Re:제로부터 시작하는 이세계 생활",
+      "tag": "echidna (re:zero), re:zero kara hajimeru isekai seikatsu"
+    },
+    {
+      "id": "crusch_karsten_rezero",
+      "name": "crusch karsten",
+      "name_ko": "크루슈 카르스텐",
+      "series": "re:zero kara hajimeru isekai seikatsu",
+      "series_ko": "Re:제로부터 시작하는 이세계 생활",
+      "tag": "crusch karsten, re:zero kara hajimeru isekai seikatsu"
+    },
+    {
+      "id": "san_mononoke_hime",
+      "name": "san",
+      "name_ko": "산",
+      "series": "mononoke hime",
+      "series_ko": "원령공주",
+      "tag": "san (mononoke hime), mononoke hime"
+    },
+    {
+      "id": "mizuno_ami",
+      "name": "mizuno ami",
+      "name_ko": "수성 아미",
+      "series": "bishoujo senshi sailor moon",
+      "series_ko": "미소녀 전사 세일러 문",
+      "tag": "mizuno ami, bishoujo senshi sailor moon"
+    },
+    {
+      "id": "aino_minako",
+      "name": "aino minako",
+      "name_ko": "금성 미나코",
+      "series": "bishoujo senshi sailor moon",
+      "series_ko": "미소녀 전사 세일러 문",
+      "tag": "aino minako, bishoujo senshi sailor moon"
+    },
+    {
+      "id": "tsukino_usagi",
+      "name": "tsukino usagi",
+      "name_ko": "달 우사기",
+      "series": "bishoujo senshi sailor moon",
+      "series_ko": "미소녀 전사 세일러 문",
+      "tag": "tsukino usagi, bishoujo senshi sailor moon"
+    },
+    {
+      "id": "kino_makoto",
+      "name": "kino makoto",
+      "name_ko": "목성 마코토",
+      "series": "bishoujo senshi sailor moon",
+      "series_ko": "미소녀 전사 세일러 문",
+      "tag": "kino makoto, bishoujo senshi sailor moon"
+    },
+    {
+      "id": "hino_rei",
+      "name": "hino rei",
+      "name_ko": "화성 레이",
+      "series": "bishoujo senshi sailor moon",
+      "series_ko": "미소녀 전사 세일러 문",
+      "tag": "hino rei, bishoujo senshi sailor moon"
+    },
+    {
+      "id": "chacha_akazukin",
+      "name": "chacha",
+      "name_ko": "차차",
+      "series": "akazukin chacha",
+      "series_ko": "빨간 모자 차차",
+      "tag": "chacha (akazukin chacha), akazukin chacha"
+    },
+    {
+      "id": "magical_princess_akazukin",
+      "name": "magical princess",
+      "name_ko": "매직 프린세스",
+      "series": "akazukin chacha",
+      "series_ko": "빨간 모자 차차",
+      "tag": "magical princess, akazukin chacha"
+    },
+    {
+      "id": "lina_inverse",
+      "name": "lina inverse",
+      "name_ko": "리나 인버스",
+      "series": "slayers",
+      "series_ko": "슬레이어스",
+      "tag": "lina inverse, slayers"
+    },
+    {
+      "id": "sylphiel_nels_lahda",
+      "name": "sylphiel nels lahda",
+      "name_ko": "실피엘 넬 라흐다",
+      "series": "slayers",
+      "series_ko": "슬레이어스",
+      "tag": "sylphiel nels lahda, slayers"
+    },
+    {
+      "id": "amelia_wil_tesla_seyruun",
+      "name": "amelia wil tesla seyruun",
+      "name_ko": "아멜리아 윌 테슬라 세이룬",
+      "series": "slayers",
+      "series_ko": "슬레이어스",
+      "tag": "amelia wil tesla seyruun, slayers"
+    },
+    {
+      "id": "filia_ul_copt",
+      "name": "filia ul copt",
+      "name_ko": "필리아 울 콥트",
+      "series": "slayers",
+      "series_ko": "슬레이어스",
+      "tag": "filia ul copt, slayers"
+    },
+    {
+      "id": "ayako_slam_dunk",
+      "name": "ayako",
+      "name_ko": "아야코",
+      "series": "slam dunk (series)",
+      "series_ko": "슬램덩크",
+      "tag": "ayako (anime), slam dunk (series)"
+    },
+    {
+      "id": "akagi_haruko",
+      "name": "akagi haruko",
+      "name_ko": "아카기 하루코",
+      "series": "slam dunk (series)",
+      "series_ko": "슬램덩크",
+      "tag": "akagi haruko (anime), slam dunk (series)"
+    },
+    {
+      "id": "nova_starcraft",
+      "name": "nova",
+      "name_ko": "노바",
+      "series": "starcraft",
+      "series_ko": "스타크래프트",
+      "tag": "nova (starcraft), starcraft"
+    },
+    {
+      "id": "sarah_kerrigan",
+      "name": "sarah kerrigan",
+      "name_ko": "사라 케리건",
+      "series": "starcraft",
+      "series_ko": "스타크래프트",
+      "tag": "sarah kerrigan, starcraft"
+    },
+    {
+      "id": "asuna_sao",
+      "name": "asuna",
+      "name_ko": "아스나",
+      "series": "sword art online",
+      "series_ko": "소드 아트 온라인",
+      "tag": "asuna (sao), sword art online"
+    },
+    {
+      "id": "irina_jelavic",
+      "name": "irina jelavic",
+      "name_ko": "이리나 옙라비치",
+      "series": "ansatsu kyoushitsu",
+      "series_ko": "암살교실",
+      "tag": "irina jelavic, ansatsu kyoushitsu"
+    },
+    {
+      "id": "ayanami_rei",
+      "name": "ayanami rei",
+      "name_ko": "아야나미 레이",
+      "series": "neon genesis evangelion",
+      "series_ko": "신세기 에반게리온",
+      "tag": "ayanami rei, neon genesis evangelion"
+    },
+    {
+      "id": "souryuu_asuka_langley",
+      "name": "souryuu asuka langley",
+      "name_ko": "소류 아스카 랑그레이",
+      "series": "neon genesis evangelion",
+      "series_ko": "신세기 에반게리온",
+      "tag": "souryuu asuka langley, neon genesis evangelion"
+    },
+    {
+      "id": "katsuragi_misato",
+      "name": "katsuragi misato",
+      "name_ko": "카츠라기 미사토",
+      "series": "neon genesis evangelion",
+      "series_ko": "신세기 에반게리온",
+      "tag": "katsuragi misato, neon genesis evangelion"
+    },
+    {
+      "id": "ikari_yui",
+      "name": "ikari yui",
+      "name_ko": "이카리 유이",
+      "series": "neon genesis evangelion",
+      "series_ko": "신세기 에반게리온",
+      "tag": "ikari yui, neon genesis evangelion"
+    },
+    {
+      "id": "horaki_hikari",
+      "name": "horaki hikari",
+      "name_ko": "호라키 히카리",
+      "series": "neon genesis evangelion",
+      "series_ko": "신세기 에반게리온",
+      "tag": "horaki hikari, neon genesis evangelion"
+    },
+    {
+      "id": "diane_nanatsu",
+      "name": "diane",
+      "name_ko": "디안느",
+      "series": "nanatsu no taizai",
+      "series_ko": "일곱 개의 대죄",
+      "tag": "diane (nanatsu no taizai), nanatsu no taizai"
+    },
+    {
+      "id": "liones_margaret",
+      "name": "liones margaret",
+      "name_ko": "라이온스 마가렛",
+      "series": "nanatsu no taizai",
+      "series_ko": "일곱 개의 대죄",
+      "tag": "liones margaret, nanatsu no taizai"
+    },
+    {
+      "id": "merlin_nanatsu",
+      "name": "merlin",
+      "name_ko": "머린",
+      "series": "nanatsu no taizai",
+      "series_ko": "일곱 개의 대죄",
+      "tag": "merlin (nanatsu no taizai), nanatsu no taizai"
+    },
+    {
+      "id": "elizabeth_liones",
+      "name": "elizabeth liones",
+      "name_ko": "엘리자베스 라이온스",
+      "series": "nanatsu no taizai",
+      "series_ko": "일곱 개의 대죄",
+      "tag": "elizabeth liones, nanatsu no taizai"
+    },
+    {
+      "id": "darkness_konosuba",
+      "name": "darkness",
+      "name_ko": "다크니스",
+      "series": "kono subarashii sekai ni shukufuku wo!",
+      "series_ko": "이 멋진 세계에 축복을!",
+      "tag": "darkness (konosuba), kono subarashii sekai ni shukufuku wo!"
+    },
+    {
+      "id": "megumin",
+      "name": "megumin",
+      "name_ko": "메구민",
+      "series": "kono subarashii sekai ni shukufuku wo!",
+      "series_ko": "이 멋진 세계에 축복을!",
+      "tag": "megumin, kono subarashii sekai ni shukufuku wo!"
+    },
+    {
+      "id": "aqua_konosuba",
+      "name": "aqua",
+      "name_ko": "아쿠아",
+      "series": "kono subarashii sekai ni shukufuku wo!",
+      "series_ko": "이 멋진 세계에 축복을!",
+      "tag": "aqua (konosuba), kono subarashii sekai ni shukufuku wo!"
+    },
+    {
+      "id": "shirahoshi",
+      "name": "shirahoshi",
+      "name_ko": "시라호시",
+      "series": "one piece",
+      "series_ko": "원피스",
+      "tag": "shirahoshi, one piece"
+    },
+    {
+      "id": "vinsmoke_reiju",
+      "name": "vinsmoke reiju",
+      "name_ko": "빈스모크 레이주",
+      "series": "one piece",
+      "series_ko": "원피스",
+      "tag": "vinsmoke reiju, one piece"
+    },
+    {
+      "id": "black_maria",
+      "name": "black maria",
+      "name_ko": "검은 마리아",
+      "series": "one piece",
+      "series_ko": "원피스",
+      "tag": "black maria (one piece), one piece"
+    },
+    {
+      "id": "nefertari_vivi",
+      "name": "nefertari vivi",
+      "name_ko": "네페르타리 비비",
+      "series": "one piece",
+      "series_ko": "원피스",
+      "tag": "nefertari vivi, one piece"
+    },
+    {
+      "id": "alvida",
+      "name": "alvida",
+      "name_ko": "알비다",
+      "series": "one piece",
+      "series_ko": "원피스",
+      "tag": "alvida (one piece), one piece"
+    },
+    {
+      "id": "boa_hancock",
+      "name": "boa hancock",
+      "name_ko": "보아 핸콕",
+      "series": "one piece",
+      "series_ko": "원피스",
+      "tag": "boa hancock, one piece"
+    },
+    {
+      "id": "tashigi",
+      "name": "tashigi",
+      "name_ko": "타시기",
+      "series": "one piece",
+      "series_ko": "원피스",
+      "tag": "tashigi, one piece"
+    },
+    {
+      "id": "hina_one_piece",
+      "name": "hina",
+      "name_ko": "히나",
+      "series": "one piece",
+      "series_ko": "원피스",
+      "tag": "hina (one piece), one piece"
+    },
+    {
+      "id": "nico_robin",
+      "name": "nico robin",
+      "name_ko": "니코 로빈",
+      "series": "one piece",
+      "series_ko": "원피스",
+      "tag": "nico robin, one piece"
+    },
+    {
+      "id": "nami_one_piece",
+      "name": "nami",
+      "name_ko": "나미",
+      "series": "one piece",
+      "series_ko": "원피스",
+      "tag": "nami (one piece), one piece"
+    },
+    {
+      "id": "tatsumaki",
+      "name": "tatsumaki",
+      "name_ko": "타츠마키",
+      "series": "one-punch man",
+      "series_ko": "원펀맨",
+      "tag": "tatsumaki, one-punch man"
+    },
+    {
+      "id": "fubuki",
+      "name": "fubuki",
+      "name_ko": "후부키",
+      "series": "one-punch man",
+      "series_ko": "원펀맨",
+      "tag": "fubuki (one-punch man), one-punch man"
+    },
+    {
+      "id": "kaijin_hime_do_s",
+      "name": "kaijin hime do-s",
+      "name_ko": "괴인 공주 도-S",
+      "series": "one-punch man",
+      "series_ko": "원펀맨",
+      "tag": "kaijin hime do-s, one-punch man"
+    },
+    {
+      "id": "albedo_overlord",
+      "name": "albedo",
+      "name_ko": "알베도",
+      "series": "overlord (maruyama)",
+      "series_ko": "오버로드",
+      "tag": "albedo (overlord), overlord (maruyama)"
+    },
+    {
+      "id": "shalltear_bloodfallen",
+      "name": "shalltear bloodfallen",
+      "name_ko": "샬티어 블러드폴렌",
+      "series": "overlord (maruyama)",
+      "series_ko": "오버로드",
+      "tag": "shalltear bloodfallen, overlord (maruyama)"
+    },
+    {
+      "id": "hoshino_ai",
+      "name": "hoshino ai",
+      "name_ko": "호시노 아이",
+      "series": "oshi no ko",
+      "series_ko": "별의 아이",
+      "tag": "hoshino ai, oshi no ko"
+    },
+    {
+      "id": "hoshino_ruby",
+      "name": "hoshino ruby",
+      "name_ko": "호시노 루비",
+      "series": "oshi no ko",
+      "series_ko": "별의 아이",
+      "tag": "hoshino ruby, oshi no ko"
+    },
+    {
+      "id": "kurokawa_akane",
+      "name": "kurokawa akane",
+      "name_ko": "쿠로카와 아카네",
+      "series": "oshi no ko",
+      "series_ko": "별의 아이",
+      "tag": "kurokawa akane, oshi no ko"
+    },
+    {
+      "id": "arima_kana",
+      "name": "arima kana",
+      "name_ko": "아리마 카나",
+      "series": "oshi no ko",
+      "series_ko": "별의 아이",
+      "tag": "arima kana, oshi no ko"
+    },
+    {
+      "id": "memcho",
+      "name": "memcho",
+      "name_ko": "멤쵸",
+      "series": "oshi no ko",
+      "series_ko": "별의 아이",
+      "tag": "memcho, oshi no ko"
+    },
+    {
+      "id": "kotobuki_minami",
+      "name": "kotobuki minami",
+      "name_ko": "코토부키 미나미",
+      "series": "oshi no ko",
+      "series_ko": "별의 아이",
+      "tag": "kotobuki minami (anime), oshi no ko"
+    },
+    {
+      "id": "saitou_miyako",
+      "name": "saitou miyako",
+      "name_ko": "사이토 미야코",
+      "series": "oshi no ko",
+      "series_ko": "별의 아이",
+      "tag": "saitou miyako, oshi no ko"
+    },
+    {
+      "id": "sumi_yuki",
+      "name": "sumi yuki",
+      "name_ko": "스미 유키",
+      "series": "oshi no ko",
+      "series_ko": "별의 아이",
+      "tag": "sumi yuki (anime), oshi no ko"
+    },
+    {
+      "id": "reze_chainsaw_man",
+      "name": "reze",
+      "name_ko": "레제",
+      "series": "chainsaw man",
+      "series_ko": "체인소 맨",
+      "tag": "reze (chainsaw man), chainsaw man"
+    },
+    {
+      "id": "power_chainsaw_man",
+      "name": "power",
+      "name_ko": "파워",
+      "series": "chainsaw man",
+      "series_ko": "체인소 맨",
+      "tag": "power (chainsaw man), chainsaw man"
+    },
+    {
+      "id": "haneoka_meimi",
+      "name": "haneoka meimi",
+      "name_ko": "하네오카 메이미",
+      "series": "kaitou saint tail",
+      "series_ko": "괴도 세인트 테일",
+      "tag": "haneoka meimi, kaitou saint tail"
+    },
+    {
+      "id": "mikasa_ackerman",
+      "name": "mikasa ackerman",
+      "name_ko": "미카사 아커만",
+      "series": "shingeki no kyojin",
+      "series_ko": "진격의 거인",
+      "tag": "mikasa ackerman, shingeki no kyojin"
+    },
+    {
+      "id": "annie_leonhart",
+      "name": "annie leonhart",
+      "name_ko": "애니 레온하르트",
+      "series": "shingeki no kyojin",
+      "series_ko": "진격의 거인",
+      "tag": "annie leonhart, shingeki no kyojin"
+    },
+    {
+      "id": "gabi_braun",
+      "name": "gabi braun",
+      "name_ko": "가비 브라운",
+      "series": "shingeki no kyojin",
+      "series_ko": "진격의 거인",
+      "tag": "gabi braun, shingeki no kyojin"
+    },
+    {
+      "id": "sasha_blouse",
+      "name": "sasha blouse",
+      "name_ko": "사샤 블라우스",
+      "series": "shingeki no kyojin",
+      "series_ko": "진격의 거인",
+      "tag": "sasha blouse, shingeki no kyojin"
+    },
+    {
+      "id": "carla_yeager",
+      "name": "carla yeager",
+      "name_ko": "카를라 예거",
+      "series": "shingeki no kyojin",
+      "series_ko": "진격의 거인",
+      "tag": "carla yeager, shingeki no kyojin"
+    },
+    {
+      "id": "milim_nava",
+      "name": "milim nava",
+      "name_ko": "밀림 나바",
+      "series": "tensei shitara slime datta ken",
+      "series_ko": "전생했니까 슬라임이었다",
+      "tag": "milim nava, tensei shitara slime datta ken"
+    },
+    {
+      "id": "ramiris",
+      "name": "ramiris",
+      "name_ko": "라미리스",
+      "series": "tensei shitara slime datta ken",
+      "series_ko": "전생했니까 슬라임이었다",
+      "tag": "ramiris (anime), tensei shitara slime datta ken"
+    },
+    {
+      "id": "rimuru_tempest",
+      "name": "rimuru tempest",
+      "name_ko": "리무루 템페스트",
+      "series": "tensei shitara slime datta ken",
+      "series_ko": "전생했니까 슬라임이었다",
+      "tag": "rimuru tempest, tensei shitara slime datta ken"
+    },
+    {
+      "id": "shuna_tensura",
+      "name": "shuna",
+      "name_ko": "슈나",
+      "series": "tensei shitara slime datta ken",
+      "series_ko": "전생했니까 슬라임이었다",
+      "tag": "shuna (tensura), tensei shitara slime datta ken"
+    },
+    {
+      "id": "shion_tensura",
+      "name": "shion",
+      "name_ko": "시온",
+      "series": "tensei shitara slime datta ken",
+      "series_ko": "전생했니까 슬라임이었다",
+      "tag": "shion (tensura), tensei shitara slime datta ken"
+    },
+    {
+      "id": "izawa_shizue",
+      "name": "izawa shizue",
+      "name_ko": "이자와 시즈에",
+      "series": "tensei shitara slime datta ken",
+      "series_ko": "전생했니까 슬라임이었다",
+      "tag": "izawa shizue, tensei shitara slime datta ken"
+    },
+    {
+      "id": "aura_frieren",
+      "name": "aura",
+      "name_ko": "아우라",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "aura (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "linie_frieren",
+      "name": "linie",
+      "name_ko": "리니에",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "linie (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "lawine_frieren",
+      "name": "lawine",
+      "name_ko": "라비네",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "lawine (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "laufen_frieren",
+      "name": "laufen",
+      "name_ko": "라우펜",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "laufen (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "ubel_frieren",
+      "name": "ubel",
+      "name_ko": "우벨",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "ubel (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "kanne_frieren",
+      "name": "kanne",
+      "name_ko": "칸느",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "kanne (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "fern_frieren",
+      "name": "fern",
+      "name_ko": "페른",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "fern (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "methode_frieren",
+      "name": "methode",
+      "name_ko": "메토데",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "methode (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "edel_frieren",
+      "name": "edel",
+      "name_ko": "에델",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "edel (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "ehre_frieren",
+      "name": "ehre",
+      "name_ko": "에레",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "ehre (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "serie_frieren",
+      "name": "serie",
+      "name_ko": "세리에",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "serie (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "sense_frieren",
+      "name": "sense",
+      "name_ko": "센세",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "sense (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "frieren",
+      "name": "frieren",
+      "name_ko": "프리렌",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "frieren, sousou no frieren"
+    },
+    {
+      "id": "flamme_frieren",
+      "name": "flamme",
+      "name_ko": "플람메",
+      "series": "sousou no frieren",
+      "series_ko": "장수하는 마법사",
+      "tag": "flamme (sousou no frieren), sousou no frieren"
+    },
+    {
+      "id": "nina_einstein",
+      "name": "nina einstein",
+      "name_ko": "니나 아인슈타인",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "nina einstein, code geass"
+    },
+    {
+      "id": "milly_ashford",
+      "name": "milly ashford",
+      "name_ko": "밀리 애쉬포드",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "milly ashford, code geass"
+    },
+    {
+      "id": "shirley_fenette",
+      "name": "shirley fenette",
+      "name_ko": "셜리 페넷",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "shirley fenette, code geass"
+    },
+    {
+      "id": "tianzi",
+      "name": "tianzi",
+      "name_ko": "티안즈",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "tianzi, code geass"
+    },
+    {
+      "id": "villetta_nu",
+      "name": "villetta nu",
+      "name_ko": "빌레타 누",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "villetta nu, code geass"
+    },
+    {
+      "id": "cecile_croomy",
+      "name": "cecile croomy",
+      "name_ko": "세실 크로미",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "cecile croomy, code geass"
+    },
+    {
+      "id": "anya_alstreim",
+      "name": "anya alstreim",
+      "name_ko": "아냐 알스트림",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "anya alstreim, code geass"
+    },
+    {
+      "id": "euphemia_li_britannia",
+      "name": "euphemia li britannia",
+      "name_ko": "유페미아 리 브리태니아",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "euphemia li britannia, code geass"
+    },
+    {
+      "id": "cornelia_li_britannia",
+      "name": "cornelia li britannia",
+      "name_ko": "코넬리아 리 브리태니아",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "cornelia li britannia, code geass"
+    },
+    {
+      "id": "nunnally_vi_britannia",
+      "name": "nunnally vi britannia",
+      "name_ko": "논날리 비 브리태니아",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "nunnally vi britannia, code geass"
+    },
+    {
+      "id": "marianne_vi_britannia",
+      "name": "marianne vi britannia",
+      "name_ko": "마리안느 비 브리태니아",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "marianne vi britannia, code geass"
+    },
+    {
+      "id": "cc_code_geass",
+      "name": "c.c.",
+      "name_ko": "씨씨",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "c.c. (code geass), code geass"
+    },
+    {
+      "id": "rakshata_chawla",
+      "name": "rakshata chawla",
+      "name_ko": "락샤타 차울라",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "rakshata chawla, code geass"
+    },
+    {
+      "id": "shinozaki_sayoko",
+      "name": "shinozaki sayoko",
+      "name_ko": "신오자키 사요코",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "shinozaki sayoko, code geass"
+    },
+    {
+      "id": "chiba_nagisa",
+      "name": "chiba nagisa",
+      "name_ko": "치바 나기사",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "chiba nagisa, code geass"
+    },
+    {
+      "id": "kouzuki_kallen",
+      "name": "kouzuki kallen",
+      "name_ko": "고우즈키 카렌",
+      "series": "code geass",
+      "series_ko": "코드 기아스",
+      "tag": "kouzuki kallen, code geass"
+    },
+    {
+      "id": "momobami_ririka",
+      "name": "momobami ririka",
+      "name_ko": "모모바미 리리카",
+      "series": "kakegurui",
+      "series_ko": "카케구루이",
+      "tag": "momobami ririka, kakegurui"
+    },
+    {
+      "id": "momobami_kirari",
+      "name": "momobami kirari",
+      "name_ko": "모모바미 키라리",
+      "series": "kakegurui",
+      "series_ko": "카케구루이",
+      "tag": "momobami kirari, kakegurui"
+    },
+    {
+      "id": "saotome_mary",
+      "name": "saotome mary",
+      "name_ko": "사오토메 메리",
+      "series": "kakegurui",
+      "series_ko": "카케구루이",
+      "tag": "saotome mary, kakegurui"
+    },
+    {
+      "id": "igarashi_sayaka",
+      "name": "igarashi sayaka",
+      "name_ko": "이가라시 사야카",
+      "series": "kakegurui",
+      "series_ko": "카케구루이",
+      "tag": "igarashi sayaka, kakegurui"
+    },
+    {
+      "id": "jabami_yumeko",
+      "name": "jabami yumeko",
+      "name_ko": "자바미 유메코",
+      "series": "kakegurui",
+      "series_ko": "카케구루이",
+      "tag": "jabami yumeko, kakegurui"
+    },
+    {
+      "id": "kinomoto_sakura",
+      "name": "kinomoto sakura",
+      "name_ko": "키노모토 사쿠라",
+      "series": "cardcaptor sakura",
+      "series_ko": "카드캡터 사쿠라",
+      "tag": "kinomoto sakura, cardcaptor sakura"
+    },
+    {
+      "id": "daidouji_tomoyo",
+      "name": "daidouji tomoyo",
+      "name_ko": "다이도우지 토모요",
+      "series": "cardcaptor sakura",
+      "series_ko": "카드캡터 사쿠라",
+      "tag": "daidouji tomoyo, cardcaptor sakura"
+    }
+  ]
+}

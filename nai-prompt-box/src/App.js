@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import CategorySection from './components/CategorySection';
+import CharacterSection from './components/CharacterSection';
 import Toast from './components/Toast';
 import { artTags, poseTags, categoryConfig } from './data/tags';
 
@@ -34,6 +35,9 @@ function App() {
             tags={poseTags}
             onCopy={handleCopy}
             wildcardEnabled={categoryConfig.pose.wildcardEnabled}
+          />
+          <CharacterSection
+            onTagCopy={handleCopy}
           />
         </div>
       </main>

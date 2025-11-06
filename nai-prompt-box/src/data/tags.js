@@ -1,3 +1,5 @@
+import characterData from './characters.json';
+
 // 카테고리 설정 (메타데이터)
 export const categoryConfig = {
   art: {
@@ -7,6 +9,10 @@ export const categoryConfig = {
   pose: {
     name: '포즈',
     wildcardEnabled: true
+  },
+  character: {
+    name: '캐릭터',
+    wildcardEnabled: false
   }
 };
 
@@ -35,4 +41,26 @@ export const poseTags = {
   "finger gun": "finger gun",
   "heart hands": "heart hands"
 };
+
+// 캐릭터 태그 데이터 (characters.json에서 동적으로 생성)
+export const characterTags = characterData.characters.reduce((acc, char) => {
+  acc[char.name] = char.tag;
+  return acc;
+}, {});
+
+// 캐릭터를 작품별로 그룹화
+export const charactersBySeriesMap = characterData.characters.reduce((acc, char) => {
+  if (!acc[char.series]) {
+    acc[char.series] = [];
+  }
+  acc[char.series].push({
+    name: char.name,
+    tag: char.tag,
+    id: char.id
+  });
+  return acc;
+}, {});
+
+// 모든 작품명 리스트 (정렬됨)
+export const allSeries = Object.keys(charactersBySeriesMap).sort();
 
