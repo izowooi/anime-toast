@@ -48,13 +48,16 @@ export const characterTags = characterData.characters.reduce((acc, char) => {
   return acc;
 }, {});
 
-// 캐릭터를 작품별로 그룹화
+// 캐릭터를 작품별로 그룹화 (한국어 필드 포함)
 export const charactersBySeriesMap = characterData.characters.reduce((acc, char) => {
   if (!acc[char.series]) {
     acc[char.series] = [];
   }
   acc[char.series].push({
     name: char.name,
+    name_ko: char.name_ko,
+    series: char.series,
+    series_ko: char.series_ko,
     tag: char.tag,
     id: char.id
   });
