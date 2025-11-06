@@ -24,10 +24,10 @@ export const searchCharacters = (query, series = null) => {
 
   // 캐릭터명(영문, 한글) 또는 작품명(영문, 한글)으로 검색
   return allCharacters.filter(char => {
-    const nameMatch = char.name.toLowerCase().includes(lowerQuery);
-    const nameKoMatch = char.name_ko && char.name_ko.includes(query); // 한글은 대소문자 구분 없음
-    const seriesMatch = char.series.toLowerCase().includes(lowerQuery);
-    const seriesKoMatch = char.series_ko && char.series_ko.includes(query);
+    const nameMatch = char.name ? char.name.toLowerCase().includes(lowerQuery) : false;
+    const nameKoMatch = char.name_ko ? char.name_ko.includes(query) : false; // 한글은 대소문자 구분 없음
+    const seriesMatch = char.series ? char.series.toLowerCase().includes(lowerQuery) : false;
+    const seriesKoMatch = char.series_ko ? char.series_ko.includes(query) : false;
 
     return nameMatch || nameKoMatch || seriesMatch || seriesKoMatch;
   });
