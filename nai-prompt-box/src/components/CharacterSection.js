@@ -1,5 +1,4 @@
 import React, { useState, useMemo } from 'react';
-import { charactersBySeriesMap, allSeries } from '../data/tags';
 import { searchCharacters, groupCharactersBySeriesName, getAllCharacters } from '../utils/searchCharacters';
 import CharacterSearch from './CharacterSearch';
 import SeriesFilter from './SeriesFilter';
