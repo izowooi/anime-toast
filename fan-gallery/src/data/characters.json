@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "name": "사쿠라 미코",
-    "series": "호로라이브",
-    "image": "/images/characters/character1.jpg"
+    "name": "aura",
+    "series": "장송의프리렌",
+    "image": "/images/aura/00001.webp"
   },
   {
     "id": 2,
-    "name": "호시마치 스이세이",
-    "series": "호로라이브",
-    "image": "/images/characters/character2.jpg"
+    "name": "beatrice",
+    "series": "장송의프리렌",
+    "image": "/images/beatrice/00001.webp"
   },
   {
     "id": 3,
-    "name": "마린",
-    "series": "호로라이브",
-    "image": "/images/characters/character3.jpg"
+    "name": "cc",
+    "series": "코드기어스",
+    "image": "/images/cc/00001.webp"
   },
   {
     "id": 4,
-    "name": "페코라",
-    "series": "호로라이브",
-    "image": "/images/characters/character4.jpg"
+    "name": "frieren",
+    "series": "장송의프리렌",
+    "image": "/images/frieren/00001.webp"
   },
   {
     "id": 5,
-    "name": "코로네",
-    "series": "호로라이브",
-    "image": "/images/characters/character5.jpg"
+    "name": "ram",
+    "series": "리제로",
+    "image": "/images/ram/00001.webp"
   },
   {
     "id": 6,
-    "name": "아쿠아",
-    "series": "호로라이브",
-    "image": "/images/characters/character6.jpg"
+    "name": "rem",
+    "series": "리제로",
+    "image": "/images/rem/00001.webp"
   },
   {
     "id": 7,
-    "name": "시온",
-    "series": "호로라이브",
-    "image": "/images/characters/character7.jpg"
+    "name": "souryuu-asuka-langley",
+    "series": "에반게리온",
+    "image": "/images/souryuu-asuka-langley/00001.webp"
   },
   {
     "id": 8,
-    "name": "아야메",
-    "series": "호로라이브",
-    "image": "/images/characters/character8.jpg"
+    "name": "tsukino-usagi",
+    "series": "세일러문",
+    "image": "/images/tsukino-usagi/00001.webp"
   }
 ]
