@@ -1,0 +1,45 @@
+.gallery-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafb;
+}
+
+.gallery-main {
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+.gallery-header {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.gallery-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 0.5rem 0;
+}
+
+.gallery-subtitle {
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+  .gallery-header {
+    padding: 1.5rem 1rem 0 1rem;
+  }
+
+  .gallery-title {
+    font-size: 1.5rem;
+  }
+
+  .gallery-subtitle {
+    font-size: 0.875rem;
+  }
+}

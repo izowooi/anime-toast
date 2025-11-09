@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "사쿠라 미코",
+    "series": "호로라이브",
+    "image": "/images/characters/character1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "호시마치 스이세이",
+    "series": "호로라이브",
+    "image": "/images/characters/character2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "마린",
+    "series": "호로라이브",
+    "image": "/images/characters/character3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "페코라",
+    "series": "호로라이브",
+    "image": "/images/characters/character4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "코로네",
+    "series": "호로라이브",
+    "image": "/images/characters/character5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "아쿠아",
+    "series": "호로라이브",
+    "image": "/images/characters/character6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "시온",
+    "series": "호로라이브",
+    "image": "/images/characters/character7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "아야메",
+    "series": "호로라이브",
+    "image": "/images/characters/character8.jpg"
+  }
+]
