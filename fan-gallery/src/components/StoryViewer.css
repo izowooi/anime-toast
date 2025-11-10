@@ -1,0 +1,59 @@
+.story-viewer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.story-viewer-empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #6b7280;
+  font-size: 1.1rem;
+}
+
+/* 스토리 헤더 */
+.story-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 1rem;
+  color: white;
+}
+
+.story-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.story-description {
+  font-size: 1.1rem;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* 스토리 패널 컨테이너 */
+.story-panels {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .story-header {
+    padding: 1.5rem 1rem;
+  }
+
+  .story-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .story-description {
+    font-size: 1rem;
+  }
+
+  .story-panels {
+    gap: 2rem;
+  }
+}

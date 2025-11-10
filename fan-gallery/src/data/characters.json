@@ -3,7 +3,121 @@
     "id": 1,
     "name": "aura",
     "series": "장송의프리렌",
-    "image": "/images/aura/00001.webp"
+    "image": "/images/aura/00001.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/aura/beach/00216.webp",
+        "story": [
+          {
+            "image": "/images/aura/beach/00216.webp",
+            "narration": "따스한 햇살이 내리쬐는 해변가. 파란 하늘과 에메랄드빛 바다가 눈부시게 펼쳐진다."
+          },
+          {
+            "image": "/images/aura/beach/00217.webp",
+            "narration": "파도 소리가 귓가에 들려온다. 시원한 바람이 머리카락을 가볍게 흔든다."
+          },
+          {
+            "image": "/images/aura/beach/00218.webp",
+            "narration": "여름의 추억이 이곳에 담겨있다. 영원히 잊지 못할 특별한 순간."
+          }
+        ]
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/aura/pose/00219.webp",
+        "story": [
+          {
+            "image": "/images/aura/pose/00219.webp",
+            "narration": "우아한 자태로 포즈를 취한다. 자신감 넘치는 모습이 인상적이다."
+          },
+          {
+            "image": "/images/aura/pose/00220.webp",
+            "narration": "장난스러운 표정과 함께 손을 흔든다. 밝은 미소가 주변을 환하게 만든다."
+          },
+          {
+            "image": "/images/aura/pose/00221.webp",
+            "narration": "진지한 표정으로 정면을 응시한다. 강인한 의지가 느껴진다."
+          },
+          {
+            "image": "/images/aura/pose/00222.webp",
+            "narration": "부드러운 미소와 함께 손을 모은다. 평온함이 감도는 순간이다."
+          }
+        ]
+      },
+      {
+        "id": "school",
+        "title": "학교",
+        "description": "평범한 학생의 일상",
+        "coverImage": "/images/aura/school/00223.webp",
+        "story": [
+          {
+            "image": "/images/aura/school/00223.webp",
+            "narration": "교복을 입고 등교하는 아침. 가방을 메고 설레는 마음으로 학교에 향한다."
+          },
+          {
+            "image": "/images/aura/school/00224.webp",
+            "narration": "교실 창가에 앉아 밖을 바라본다. 햇살이 책상 위로 쏟아진다."
+          },
+          {
+            "image": "/images/aura/school/00225.webp",
+            "narration": "친구들과 함께 점심시간을 보낸다. 즐거운 웃음소리가 교실에 가득하다."
+          },
+          {
+            "image": "/images/aura/school/00226.webp",
+            "narration": "방과 후, 교정을 거닐며 하루를 마무리한다. 노을이 하늘을 물들인다."
+          }
+        ]
+      },
+      {
+        "id": "story_competition",
+        "title": "스토리: 경쟁",
+        "description": "치열한 경쟁 속에서",
+        "coverImage": "/images/aura/story_competition/00227.webp",
+        "story": [
+          {
+            "image": "/images/aura/story_competition/00227.webp",
+            "narration": "대회가 시작되었다. 긴장감이 감도는 가운데, 침착하게 준비를 마친다."
+          },
+          {
+            "image": "/images/aura/story_competition/00228.webp",
+            "narration": "라이벌과 마주한다. 서로의 눈빛에서 승부욕이 불타오른다."
+          },
+          {
+            "image": "/images/aura/story_competition/00229.webp",
+            "narration": "치열한 경쟁이 펼쳐진다. 모든 것을 쏟아붓는 순간이다."
+          },
+          {
+            "image": "/images/aura/story_competition/00230.webp",
+            "narration": "결국 승리를 거머쥔다. 노력의 결실이 빛을 발하는 순간이다."
+          }
+        ]
+      },
+      {
+        "id": "story_jail",
+        "title": "스토리: 감옥",
+        "description": "역경 속에서의 이야기",
+        "coverImage": "/images/aura/story_jail/00231.webp",
+        "story": [
+          {
+            "image": "/images/aura/story_jail/00231.webp",
+            "narration": "차가운 쇠창살 너머로 빛이 비친다. 이곳은 어둡고 고요한 공간이다."
+          },
+          {
+            "image": "/images/aura/story_jail/00232.webp",
+            "narration": "포기하지 않는다. 희망을 잃지 않고 탈출의 방법을 찾는다."
+          },
+          {
+            "image": "/images/aura/story_jail/00233.webp",
+            "narration": "마침내 자유를 찾았다. 햇살이 따뜻하게 몸을 감싼다."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 2,

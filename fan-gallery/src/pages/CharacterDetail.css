@@ -1,0 +1,154 @@
+.character-detail-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafb;
+}
+
+.character-detail-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.25rem;
+  color: #6b7280;
+}
+
+.character-detail-content {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+/* 캐릭터 헤더 */
+.character-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 1.5rem;
+}
+
+.back-button:hover {
+  background-color: #2563eb;
+}
+
+.character-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.series-name {
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* 테마 네비게이션 */
+.theme-navigation {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.theme-tab {
+  flex-shrink: 0;
+  padding: 1rem 1.5rem;
+  background-color: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 150px;
+}
+
+.theme-tab:hover {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.theme-tab.active {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  color: white;
+}
+
+.theme-tab-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.theme-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.theme-description {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.theme-tab.active .theme-title,
+.theme-tab.active .theme-description {
+  color: white;
+}
+
+/* 테마가 없는 경우 */
+.no-themes-message {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #6b7280;
+  font-size: 1.1rem;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .character-header h1 {
+    font-size: 2rem;
+  }
+
+  .theme-navigation {
+    gap: 0.5rem;
+  }
+
+  .theme-tab {
+    min-width: 120px;
+    padding: 0.75rem 1rem;
+  }
+
+  .theme-title {
+    font-size: 1rem;
+  }
+
+  .theme-description {
+    font-size: 0.75rem;
+  }
+
+  .character-detail-content {
+    padding: 1rem 0.5rem;
+  }
+}

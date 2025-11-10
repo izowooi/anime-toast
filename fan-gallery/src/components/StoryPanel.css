@@ -1,0 +1,114 @@
+.story-panel {
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.story-panel:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 이미지 컨테이너 */
+.story-panel-image-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%; /* 4:3 비율 */
+  background-color: #f3f4f6;
+  overflow: hidden;
+}
+
+.story-panel-loading,
+.story-panel-error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.story-panel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.story-panel-image.loaded {
+  opacity: 1;
+}
+
+/* 나레이션 */
+.story-panel-narration {
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.narration-content {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.narration-index {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.narration-text {
+  flex: 1;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #1f2937;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .story-panel-image-container {
+    padding-bottom: 100%; /* 모바일에서는 1:1 비율 */
+  }
+
+  .story-panel-narration {
+    padding: 1rem;
+  }
+
+  .narration-content {
+    gap: 0.75rem;
+  }
+
+  .narration-index {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.85rem;
+  }
+
+  .narration-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+/* 태블릿 */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .story-panel-image-container {
+    padding-bottom: 66.67%; /* 태블릿에서는 3:2 비율 */
+  }
+}
