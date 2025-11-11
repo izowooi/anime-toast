@@ -19,6 +19,10 @@
 .env.test.local
 .env.production.local
 
+# Firebase Admin SDK keys (보안 중요!)
+*-firebase-adminsdk-*.json
+firebase-admin-key.json
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

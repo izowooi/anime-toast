@@ -20,6 +20,23 @@ const publicUrl = process.env.REACT_APP_R2_PUBLIC_URL || '';
  * @returns {Promise<string>} - 업로드된 이미지의 공개 URL
  */
 export async function uploadImageToR2(file, folder = 'images') {
+  // R2 설정 확인
+  if (!isR2Configured()) {
+    const missingVars = [];
+    if (!process.env.REACT_APP_R2_ACCOUNT_ID) missingVars.push('REACT_APP_R2_ACCOUNT_ID');
+    if (!process.env.REACT_APP_R2_ACCESS_KEY_ID) missingVars.push('REACT_APP_R2_ACCESS_KEY_ID');
+    if (!process.env.REACT_APP_R2_SECRET_ACCESS_KEY) missingVars.push('REACT_APP_R2_SECRET_ACCESS_KEY');
+    if (!process.env.REACT_APP_R2_BUCKET_NAME) missingVars.push('REACT_APP_R2_BUCKET_NAME');
+    if (!process.env.REACT_APP_R2_PUBLIC_URL) missingVars.push('REACT_APP_R2_PUBLIC_URL');
+
+    throw new Error(
+      `Cloudflare R2가 설정되지 않았습니다.\n\n` +
+      `다음 환경 변수를 .env 파일에 추가하세요:\n` +
+      missingVars.map(v => `  - ${v}`).join('\n') +
+      `\n\n이미지 업로드 기능을 사용하지 않으려면 URL을 직접 입력하세요.`
+    );
+  }
+
   try {
     // 파일 이름 생성 (타임스탬프 + 랜덤 문자열)
     const timestamp = Date.now();

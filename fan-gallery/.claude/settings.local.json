@@ -5,7 +5,9 @@
       "Bash(npm install:*)",
       "Bash(npm start)",
       "Bash(PORT=3001 npm start)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(node migrate-to-firebase.js:*)",
+      "Bash(node get-firebase-config.js:*)"
     ],
     "deny": [],
     "ask": []
