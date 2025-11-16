@@ -1,0 +1,43 @@
+.legal-page {
+  min-height: calc(100vh - 200px);
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+}
+
+.legal-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.legal-container h1 {
+  font-size: 2.5rem;
+  color: #1f2937;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.legal-content {
+  line-height: 1.8;
+  color: #4b5563;
+}
+
+.legal-content p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+  .legal-page {
+    padding: 2rem 1rem;
+  }
+
+  .legal-container h1 {
+    font-size: 2rem;
+  }
+
+  .legal-content p {
+    font-size: 0.95rem;
+  }
+}
+

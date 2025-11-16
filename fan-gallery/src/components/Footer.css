@@ -18,6 +18,31 @@
   margin: 0 0 0.5rem 0;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.75rem 0;
+}
+
+.footer-link {
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.footer-link-separator {
+  color: #d1d5db;
+  font-size: 0.875rem;
+}
+
 .footer-subtext {
   color: #9ca3af;
   font-size: 0.875rem;
