@@ -1,344 +1,872 @@
 [
   {
-    "id": 1,
-    "name": "aura",
-    "series": "장송의프리렌",
-    "image": "/images/aura/00001.webp",
+    "id": 9,
+    "name": "kousaka-honoka",
+    "series": "러브라이브!",
+    "image": "/images/kousaka-honoka/pose/00008.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/aura/beach/00216.webp",
-        "story": [
-          {
-            "image": "/images/aura/beach/00216.webp",
-            "narration": "따스한 햇살이 내리쬐는 해변가. 파란 하늘과 에메랄드빛 바다가 눈부시게 펼쳐진다."
-          },
-          {
-            "image": "/images/aura/beach/00217.webp",
-            "narration": "파도 소리가 귓가에 들려온다. 시원한 바람이 머리카락을 가볍게 흔든다."
-          },
-          {
-            "image": "/images/aura/beach/00218.webp",
-            "narration": "여름의 추억이 이곳에 담겨있다. 영원히 잊지 못할 특별한 순간."
-          }
-        ]
+        "coverImage": "/images/kousaka-honoka/pose/00010.webp",
+        "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/aura/pose/00219.webp",
-        "story": [
-          {
-            "image": "/images/aura/pose/00219.webp",
-            "narration": "우아한 자태로 포즈를 취한다. 자신감 넘치는 모습이 인상적이다."
-          },
-          {
-            "image": "/images/aura/pose/00220.webp",
-            "narration": "장난스러운 표정과 함께 손을 흔든다. 밝은 미소가 주변을 환하게 만든다."
-          },
-          {
-            "image": "/images/aura/pose/00221.webp",
-            "narration": "진지한 표정으로 정면을 응시한다. 강인한 의지가 느껴진다."
-          },
-          {
-            "image": "/images/aura/pose/00222.webp",
-            "narration": "부드러운 미소와 함께 손을 모은다. 평온함이 감도는 순간이다."
-          }
-        ]
+        "coverImage": "/images/kousaka-honoka/pose/00001.webp",
+        "story": []
       },
       {
-        "id": "school",
-        "title": "학교",
-        "description": "평범한 학생의 일상",
-        "coverImage": "/images/aura/school/00223.webp",
-        "story": [
-          {
-            "image": "/images/aura/school/00223.webp",
-            "narration": "교복을 입고 등교하는 아침. 가방을 메고 설레는 마음으로 학교에 향한다."
-          },
-          {
-            "image": "/images/aura/school/00224.webp",
-            "narration": "교실 창가에 앉아 밖을 바라본다. 햇살이 책상 위로 쏟아진다."
-          },
-          {
-            "image": "/images/aura/school/00225.webp",
-            "narration": "친구들과 함께 점심시간을 보낸다. 즐거운 웃음소리가 교실에 가득하다."
-          },
-          {
-            "image": "/images/aura/school/00226.webp",
-            "narration": "방과 후, 교정을 거닐며 하루를 마무리한다. 노을이 하늘을 물들인다."
-          }
-        ]
-      },
-      {
-        "id": "story_competition",
-        "title": "스토리: 경쟁",
-        "description": "치열한 경쟁 속에서",
-        "coverImage": "/images/aura/story_competition/00227.webp",
-        "story": [
-          {
-            "image": "/images/aura/story_competition/00227.webp",
-            "narration": "대회가 시작되었다. 긴장감이 감도는 가운데, 침착하게 준비를 마친다."
-          },
-          {
-            "image": "/images/aura/story_competition/00228.webp",
-            "narration": "라이벌과 마주한다. 서로의 눈빛에서 승부욕이 불타오른다."
-          },
-          {
-            "image": "/images/aura/story_competition/00229.webp",
-            "narration": "치열한 경쟁이 펼쳐진다. 모든 것을 쏟아붓는 순간이다."
-          },
-          {
-            "image": "/images/aura/story_competition/00230.webp",
-            "narration": "결국 승리를 거머쥔다. 노력의 결실이 빛을 발하는 순간이다."
-          }
-        ]
-      },
-      {
-        "id": "story_jail",
-        "title": "스토리: 감옥",
-        "description": "역경 속에서의 이야기",
-        "coverImage": "/images/aura/story_jail/00231.webp",
-        "story": [
-          {
-            "image": "/images/aura/story_jail/00231.webp",
-            "narration": "차가운 쇠창살 너머로 빛이 비친다. 이곳은 어둡고 고요한 공간이다."
-          },
-          {
-            "image": "/images/aura/story_jail/00232.webp",
-            "narration": "포기하지 않는다. 희망을 잃지 않고 탈출의 방법을 찾는다."
-          },
-          {
-            "image": "/images/aura/story_jail/00233.webp",
-            "narration": "마침내 자유를 찾았다. 햇살이 따뜻하게 몸을 감싼다."
-          }
-        ]
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/kousaka-honoka/pose/00005.webp",
+        "story": []
       }
     ]
-  },
-  {
-    "id": 2,
-    "name": "beatrice",
-    "series": "장송의프리렌",
-    "image": "/images/beatrice/00001.webp"
-  },
-  {
-    "id": 3,
-    "name": "cc",
-    "series": "코드기어스",
-    "image": "/images/cc/00001.webp"
-  },
-  {
-    "id": 4,
-    "name": "frieren",
-    "series": "장송의프리렌",
-    "image": "/images/frieren/00001.webp"
-  },
-  {
-    "id": 5,
-    "name": "ram",
-    "series": "리제로",
-    "image": "/images/ram/00001.webp"
-  },
-  {
-    "id": 6,
-    "name": "rem",
-    "series": "리제로",
-    "image": "/images/rem/00001.webp"
-  },
-  {
-    "id": 7,
-    "name": "souryuu-asuka-langley",
-    "series": "에반게리온",
-    "image": "/images/souryuu-asuka-langley/00001.webp"
-  },
-  {
-    "id": 8,
-    "name": "tsukino-usagi",
-    "series": "세일러문",
-    "image": "/images/tsukino-usagi/00001.webp"
-  },
-  {
-    "id": 9,
-    "name": "kousaka-honoka",
-    "series": "러브라이브!",
-    "image": "/images/kousaka-honoka/00001.webp"
   },
   {
     "id": 10,
     "name": "ayase-eli",
     "series": "러브라이브!",
-    "image": "/images/ayase-eli/00001.webp"
+    "image": "/images/ayase-eli/pose/00028.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/ayase-eli/pose/00021.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/ayase-eli/pose/00022.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/ayase-eli/pose/00016.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 11,
     "name": "sonoda-umi",
     "series": "러브라이브!",
-    "image": "/images/sonoda-umi/00001.webp"
+    "image": "/images/sonoda-umi/pose/00041.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/sonoda-umi/pose/00038.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/sonoda-umi/pose/00042.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/sonoda-umi/pose/00040.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 12,
     "name": "minami-kotori",
     "series": "러브라이브!",
-    "image": "/images/minami-kotori/00001.webp"
+    "image": "/images/minami-kotori/pose/00047.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/minami-kotori/pose/00046.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/minami-kotori/pose/00052.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/minami-kotori/pose/00060.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 13,
     "name": "nishikino-maki",
     "series": "러브라이브!",
-    "image": "/images/nishikino-maki/00001.webp"
+    "image": "/images/nishikino-maki/pose/00064.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/nishikino-maki/pose/00061.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/nishikino-maki/pose/00061.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/nishikino-maki/pose/00067.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 14,
     "name": "hoshizora-rin",
     "series": "러브라이브!",
-    "image": "/images/hoshizora-rin/00001.webp"
+    "image": "/images/hoshizora-rin/pose/00085.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/hoshizora-rin/pose/00083.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/hoshizora-rin/pose/00090.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/hoshizora-rin/pose/00088.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 15,
     "name": "koizumi-hanayo",
     "series": "러브라이브!",
-    "image": "/images/koizumi-hanayo/00001.webp"
+    "image": "/images/koizumi-hanayo/pose/00094.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/koizumi-hanayo/pose/00096.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/koizumi-hanayo/pose/00101.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/koizumi-hanayo/pose/00091.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 16,
     "name": "yazawa-nico",
     "series": "러브라이브!",
-    "image": "/images/yazawa-nico/00001.webp"
+    "image": "/images/yazawa-nico/pose/00116.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/yazawa-nico/pose/00112.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/yazawa-nico/pose/00115.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/yazawa-nico/pose/00117.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 17,
     "name": "toujou-nozomi",
     "series": "러브라이브!",
-    "image": "/images/toujou-nozomi/00001.webp"
+    "image": "/images/toujou-nozomi/pose/00129.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/toujou-nozomi/pose/00126.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/toujou-nozomi/pose/00122.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/toujou-nozomi/pose/00131.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 18,
     "name": "takami-chika",
     "series": "러브라이브!",
-    "image": "/images/takami-chika/00001.webp"
+    "image": "/images/takami-chika/pose/00143.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/takami-chika/pose/00145.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/takami-chika/pose/00139.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/takami-chika/pose/00145.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 19,
     "name": "sakurauchi-riko",
     "series": "러브라이브!",
-    "image": "/images/sakurauchi-riko/00001.webp"
+    "image": "/images/sakurauchi-riko/pose/00151.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/sakurauchi-riko/pose/00154.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/sakurauchi-riko/pose/00159.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/sakurauchi-riko/pose/00159.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 20,
     "name": "matsuura-kanan",
     "series": "러브라이브!",
-    "image": "/images/matsuura-kanan/00001.webp"
+    "image": "/images/matsuura-kanan/pose/00169.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/matsuura-kanan/pose/00176.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/matsuura-kanan/pose/00176.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/matsuura-kanan/pose/00169.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 21,
     "name": "kurosawa-dia",
     "series": "러브라이브!",
-    "image": "/images/kurosawa-dia/00001.webp"
+    "image": "/images/kurosawa-dia/pose/00181.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/kurosawa-dia/pose/00188.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/kurosawa-dia/pose/00189.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/kurosawa-dia/pose/00194.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 22,
     "name": "watanabe-you",
     "series": "러브라이브!",
-    "image": "/images/watanabe-you/00001.webp"
+    "image": "/images/watanabe-you/pose/00196.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/watanabe-you/pose/00200.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/watanabe-you/pose/00197.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/watanabe-you/pose/00199.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 23,
     "name": "tsushima-yoshiko",
     "series": "러브라이브!",
-    "image": "/images/tsushima-yoshiko/00001.webp"
+    "image": "/images/tsushima-yoshiko/pose/00216.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/tsushima-yoshiko/pose/00212.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/tsushima-yoshiko/pose/00213.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/tsushima-yoshiko/pose/00218.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 24,
     "name": "kunikida-hanamaru",
     "series": "러브라이브!",
-    "image": "/images/kunikida-hanamaru/00001.webp"
+    "image": "/images/kunikida-hanamaru/pose/00233.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/kunikida-hanamaru/pose/00235.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/kunikida-hanamaru/pose/00238.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/kunikida-hanamaru/pose/00235.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 25,
     "name": "ohara-mari",
     "series": "러브라이브!",
-    "image": "/images/ohara-mari/00001.webp"
+    "image": "/images/ohara-mari/pose/00255.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/ohara-mari/pose/00249.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/ohara-mari/pose/00246.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/ohara-mari/pose/00250.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 26,
     "name": "kurosawa-ruby",
     "series": "러브라이브!",
-    "image": "/images/kurosawa-ruby/00001.webp"
+    "image": "/images/kurosawa-ruby/pose/00265.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/kurosawa-ruby/pose/00270.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/kurosawa-ruby/pose/00256.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/kurosawa-ruby/pose/00260.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 27,
     "name": "uehara-ayumu",
     "series": "러브라이브!",
-    "image": "/images/uehara-ayumu/00001.webp"
+    "image": "/images/uehara-ayumu/pose/00283.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/uehara-ayumu/pose/00274.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/uehara-ayumu/pose/00285.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/uehara-ayumu/pose/00272.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 28,
     "name": "nakasu-kasumi",
     "series": "러브라이브!",
-    "image": "/images/nakasu-kasumi/00001.webp"
+    "image": "/images/nakasu-kasumi/pose/00287.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/nakasu-kasumi/pose/00293.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/nakasu-kasumi/pose/00289.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/nakasu-kasumi/pose/00288.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 29,
     "name": "osaka-shizuku",
     "series": "러브라이브!",
-    "image": "/images/osaka-shizuku/00001.webp"
+    "image": "/images/osaka-shizuku/pose/00314.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/osaka-shizuku/pose/00313.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/osaka-shizuku/pose/00301.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/osaka-shizuku/pose/00312.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 30,
     "name": "asaka-karin",
     "series": "러브라이브!",
-    "image": "/images/asaka-karin/00001.webp"
+    "image": "/images/asaka-karin/pose/00328.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/asaka-karin/pose/00318.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/asaka-karin/pose/00318.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/asaka-karin/pose/00316.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 31,
     "name": "miyashita-ai",
     "series": "러브라이브!",
-    "image": "/images/miyashita-ai/00001.webp"
+    "image": "/images/miyashita-ai/pose/00344.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/miyashita-ai/pose/00344.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/miyashita-ai/pose/00341.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/miyashita-ai/pose/00343.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 32,
     "name": "konoe-kanata",
     "series": "러브라이브!",
-    "image": "/images/konoe-kanata/00001.webp"
+    "image": "/images/konoe-kanata/pose/00352.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/konoe-kanata/pose/00346.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/konoe-kanata/pose/00348.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/konoe-kanata/pose/00355.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 33,
     "name": "yuki-setsuna",
     "series": "러브라이브!",
-    "image": "/images/yuki-setsuna/00001.webp"
+    "image": "/images/yuki-setsuna/pose/00363.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/yuki-setsuna/pose/00371.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/yuki-setsuna/pose/00371.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/yuki-setsuna/pose/00373.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 34,
     "name": "emma-verde",
     "series": "러브라이브!",
-    "image": "/images/emma-verde/00001.webp"
+    "image": "/images/emma-verde/pose/00383.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/emma-verde/pose/00386.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/emma-verde/pose/00378.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/emma-verde/pose/00378.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 35,
     "name": "tennouji-rina",
     "series": "러브라이브!",
-    "image": "/images/tennouji-rina/00001.webp"
+    "image": "/images/tennouji-rina/pose/00399.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/tennouji-rina/pose/00391.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/tennouji-rina/pose/00405.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/tennouji-rina/pose/00405.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 36,
     "name": "mifune-shioriko",
     "series": "러브라이브!",
-    "image": "/images/mifune-shioriko/00001.webp"
+    "image": "/images/mifune-shioriko/pose/00414.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/mifune-shioriko/pose/00409.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/mifune-shioriko/pose/00418.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/mifune-shioriko/pose/00415.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 37,
     "name": "mia-taylor",
     "series": "러브라이브!",
-    "image": "/images/mia-taylor/00001.webp"
+    "image": "/images/mia-taylor/pose/00424.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/mia-taylor/pose/00433.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/mia-taylor/pose/00424.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/mia-taylor/pose/00427.webp",
+        "story": []
+      }
+    ]
   },
   {
     "id": 38,
     "name": "zhong-lanju",
     "series": "러브라이브!",
-    "image": "/images/zhong-lanju/00001.webp"
+    "image": "/images/zhong-lanju/pose/00446.webp",
+    "themes": [
+      {
+        "id": "beach",
+        "title": "해변",
+        "description": "여름 바다에서의 한때",
+        "coverImage": "/images/zhong-lanju/pose/00436.webp",
+        "story": []
+      },
+      {
+        "id": "pose",
+        "title": "포즈",
+        "description": "다양한 모습들",
+        "coverImage": "/images/zhong-lanju/pose/00450.webp",
+        "story": []
+      },
+      {
+        "id": "amusement",
+        "title": "놀이공원",
+        "description": "즐거운 시간",
+        "coverImage": "/images/zhong-lanju/pose/00447.webp",
+        "story": []
+      }
+    ]
   }
 ]
