@@ -160,5 +160,185 @@
     "name": "tsukino-usagi",
     "series": "세일러문",
     "image": "/images/tsukino-usagi/00001.webp"
+  },
+  {
+    "id": 9,
+    "name": "kousaka-honoka",
+    "series": "러브라이브!",
+    "image": "/images/kousaka-honoka/00001.webp"
+  },
+  {
+    "id": 10,
+    "name": "ayase-eli",
+    "series": "러브라이브!",
+    "image": "/images/ayase-eli/00001.webp"
+  },
+  {
+    "id": 11,
+    "name": "sonoda-umi",
+    "series": "러브라이브!",
+    "image": "/images/sonoda-umi/00001.webp"
+  },
+  {
+    "id": 12,
+    "name": "minami-kotori",
+    "series": "러브라이브!",
+    "image": "/images/minami-kotori/00001.webp"
+  },
+  {
+    "id": 13,
+    "name": "nishikino-maki",
+    "series": "러브라이브!",
+    "image": "/images/nishikino-maki/00001.webp"
+  },
+  {
+    "id": 14,
+    "name": "hoshizora-rin",
+    "series": "러브라이브!",
+    "image": "/images/hoshizora-rin/00001.webp"
+  },
+  {
+    "id": 15,
+    "name": "koizumi-hanayo",
+    "series": "러브라이브!",
+    "image": "/images/koizumi-hanayo/00001.webp"
+  },
+  {
+    "id": 16,
+    "name": "yazawa-nico",
+    "series": "러브라이브!",
+    "image": "/images/yazawa-nico/00001.webp"
+  },
+  {
+    "id": 17,
+    "name": "toujou-nozomi",
+    "series": "러브라이브!",
+    "image": "/images/toujou-nozomi/00001.webp"
+  },
+  {
+    "id": 18,
+    "name": "takami-chika",
+    "series": "러브라이브!",
+    "image": "/images/takami-chika/00001.webp"
+  },
+  {
+    "id": 19,
+    "name": "sakurauchi-riko",
+    "series": "러브라이브!",
+    "image": "/images/sakurauchi-riko/00001.webp"
+  },
+  {
+    "id": 20,
+    "name": "matsuura-kanan",
+    "series": "러브라이브!",
+    "image": "/images/matsuura-kanan/00001.webp"
+  },
+  {
+    "id": 21,
+    "name": "kurosawa-dia",
+    "series": "러브라이브!",
+    "image": "/images/kurosawa-dia/00001.webp"
+  },
+  {
+    "id": 22,
+    "name": "watanabe-you",
+    "series": "러브라이브!",
+    "image": "/images/watanabe-you/00001.webp"
+  },
+  {
+    "id": 23,
+    "name": "tsushima-yoshiko",
+    "series": "러브라이브!",
+    "image": "/images/tsushima-yoshiko/00001.webp"
+  },
+  {
+    "id": 24,
+    "name": "kunikida-hanamaru",
+    "series": "러브라이브!",
+    "image": "/images/kunikida-hanamaru/00001.webp"
+  },
+  {
+    "id": 25,
+    "name": "ohara-mari",
+    "series": "러브라이브!",
+    "image": "/images/ohara-mari/00001.webp"
+  },
+  {
+    "id": 26,
+    "name": "kurosawa-ruby",
+    "series": "러브라이브!",
+    "image": "/images/kurosawa-ruby/00001.webp"
+  },
+  {
+    "id": 27,
+    "name": "uehara-ayumu",
+    "series": "러브라이브!",
+    "image": "/images/uehara-ayumu/00001.webp"
+  },
+  {
+    "id": 28,
+    "name": "nakasu-kasumi",
+    "series": "러브라이브!",
+    "image": "/images/nakasu-kasumi/00001.webp"
+  },
+  {
+    "id": 29,
+    "name": "osaka-shizuku",
+    "series": "러브라이브!",
+    "image": "/images/osaka-shizuku/00001.webp"
+  },
+  {
+    "id": 30,
+    "name": "asaka-karin",
+    "series": "러브라이브!",
+    "image": "/images/asaka-karin/00001.webp"
+  },
+  {
+    "id": 31,
+    "name": "miyashita-ai",
+    "series": "러브라이브!",
+    "image": "/images/miyashita-ai/00001.webp"
+  },
+  {
+    "id": 32,
+    "name": "konoe-kanata",
+    "series": "러브라이브!",
+    "image": "/images/konoe-kanata/00001.webp"
+  },
+  {
+    "id": 33,
+    "name": "yuki-setsuna",
+    "series": "러브라이브!",
+    "image": "/images/yuki-setsuna/00001.webp"
+  },
+  {
+    "id": 34,
+    "name": "emma-verde",
+    "series": "러브라이브!",
+    "image": "/images/emma-verde/00001.webp"
+  },
+  {
+    "id": 35,
+    "name": "tennouji-rina",
+    "series": "러브라이브!",
+    "image": "/images/tennouji-rina/00001.webp"
+  },
+  {
+    "id": 36,
+    "name": "mifune-shioriko",
+    "series": "러브라이브!",
+    "image": "/images/mifune-shioriko/00001.webp"
+  },
+  {
+    "id": 37,
+    "name": "mia-taylor",
+    "series": "러브라이브!",
+    "image": "/images/mia-taylor/00001.webp"
+  },
+  {
+    "id": 38,
+    "name": "zhong-lanju",
+    "series": "러브라이브!",
+    "image": "/images/zhong-lanju/00001.webp"
   }
 ]
