@@ -465,7 +465,7 @@ export async function updateStoryPanelsOrder(panels) {
 
 // ============= Export =============
 
-export default {
+const apiService = {
   // Characters
   getAllCharacters,
   getCharacterById,
@@ -488,3 +488,5 @@ export default {
   deleteStoryPanel,
   updateStoryPanelsOrder,
 };
+
+export default apiService;

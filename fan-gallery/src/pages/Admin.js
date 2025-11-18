@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -19,11 +19,12 @@ function Admin() {
   const [themeForm, setThemeForm] = useState({ theme_id: '', title: '', description: '', cover_image_url: '', sort_order: 0 });
   const [panelForm, setPanelForm] = useState({ image_url: '', narration: '', sort_order: 0 });
 
-  useEffect(() => {
-    loadCharacters();
+  const showMessage = useCallback((msg, type = 'success') => {
+    setMessage({ text: msg, type });
+    setTimeout(() => setMessage(null), 3000);
   }, []);
 
-  const loadCharacters = async () => {
+  const loadCharacters = useCallback(async () => {
     try {
       setLoading(true);
       const data = await api.getAllCharacters();
@@ -33,12 +34,11 @@ function Admin() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [showMessage]);
 
-  const showMessage = (msg, type = 'success') => {
-    setMessage({ text: msg, type });
-    setTimeout(() => setMessage(null), 3000);
-  };
+  useEffect(() => {
+    loadCharacters();
+  }, [loadCharacters]);
 
   // ============= 캐릭터 CRUD =============
 

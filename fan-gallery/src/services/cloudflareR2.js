@@ -96,8 +96,10 @@ export function isR2Configured() {
   );
 }
 
-export default {
+const r2Service = {
   uploadImageToR2,
   uploadMultipleImagesToR2,
   isR2Configured,
 };
+
+export default r2Service;
