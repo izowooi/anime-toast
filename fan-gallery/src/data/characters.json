@@ -3,27 +3,27 @@
     "id": 9,
     "name": "kousaka-honoka",
     "series": "러브라이브!",
-    "image": "/images/kousaka-honoka/pose/00008.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/kousaka-honoka/pose/00008.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/kousaka-honoka/pose/00010.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kousaka-honoka/pose/00010.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/kousaka-honoka/pose/00001.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kousaka-honoka/pose/00001.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/kousaka-honoka/pose/00005.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kousaka-honoka/pose/00005.webp",
         "story": []
       }
     ]
@@ -32,27 +32,27 @@
     "id": 10,
     "name": "ayase-eli",
     "series": "러브라이브!",
-    "image": "/images/ayase-eli/pose/00028.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/ayase-eli/pose/00028.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/ayase-eli/pose/00021.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/ayase-eli/pose/00021.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/ayase-eli/pose/00022.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/ayase-eli/pose/00022.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/ayase-eli/pose/00016.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/ayase-eli/pose/00016.webp",
         "story": []
       }
     ]
@@ -61,27 +61,27 @@
     "id": 11,
     "name": "sonoda-umi",
     "series": "러브라이브!",
-    "image": "/images/sonoda-umi/pose/00041.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/sonoda-umi/pose/00041.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/sonoda-umi/pose/00038.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/sonoda-umi/pose/00038.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/sonoda-umi/pose/00042.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/sonoda-umi/pose/00042.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/sonoda-umi/pose/00040.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/sonoda-umi/pose/00040.webp",
         "story": []
       }
     ]
@@ -90,27 +90,27 @@
     "id": 12,
     "name": "minami-kotori",
     "series": "러브라이브!",
-    "image": "/images/minami-kotori/pose/00047.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/minami-kotori/pose/00047.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/minami-kotori/pose/00046.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/minami-kotori/pose/00046.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/minami-kotori/pose/00052.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/minami-kotori/pose/00052.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/minami-kotori/pose/00060.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/minami-kotori/pose/00060.webp",
         "story": []
       }
     ]
@@ -119,27 +119,27 @@
     "id": 13,
     "name": "nishikino-maki",
     "series": "러브라이브!",
-    "image": "/images/nishikino-maki/pose/00064.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/nishikino-maki/pose/00064.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/nishikino-maki/pose/00061.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/nishikino-maki/pose/00061.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/nishikino-maki/pose/00061.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/nishikino-maki/pose/00061.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/nishikino-maki/pose/00067.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/nishikino-maki/pose/00067.webp",
         "story": []
       }
     ]
@@ -148,27 +148,27 @@
     "id": 14,
     "name": "hoshizora-rin",
     "series": "러브라이브!",
-    "image": "/images/hoshizora-rin/pose/00085.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/hoshizora-rin/pose/00085.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/hoshizora-rin/pose/00083.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/hoshizora-rin/pose/00083.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/hoshizora-rin/pose/00090.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/hoshizora-rin/pose/00090.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/hoshizora-rin/pose/00088.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/hoshizora-rin/pose/00088.webp",
         "story": []
       }
     ]
@@ -177,27 +177,27 @@
     "id": 15,
     "name": "koizumi-hanayo",
     "series": "러브라이브!",
-    "image": "/images/koizumi-hanayo/pose/00094.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/koizumi-hanayo/pose/00094.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/koizumi-hanayo/pose/00096.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/koizumi-hanayo/pose/00096.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/koizumi-hanayo/pose/00101.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/koizumi-hanayo/pose/00101.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/koizumi-hanayo/pose/00091.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/koizumi-hanayo/pose/00091.webp",
         "story": []
       }
     ]
@@ -206,27 +206,27 @@
     "id": 16,
     "name": "yazawa-nico",
     "series": "러브라이브!",
-    "image": "/images/yazawa-nico/pose/00116.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/yazawa-nico/pose/00116.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/yazawa-nico/pose/00112.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/yazawa-nico/pose/00112.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/yazawa-nico/pose/00115.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/yazawa-nico/pose/00115.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/yazawa-nico/pose/00117.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/yazawa-nico/pose/00117.webp",
         "story": []
       }
     ]
@@ -235,27 +235,27 @@
     "id": 17,
     "name": "toujou-nozomi",
     "series": "러브라이브!",
-    "image": "/images/toujou-nozomi/pose/00129.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/toujou-nozomi/pose/00129.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/toujou-nozomi/pose/00126.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/toujou-nozomi/pose/00126.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/toujou-nozomi/pose/00122.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/toujou-nozomi/pose/00122.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/toujou-nozomi/pose/00131.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/toujou-nozomi/pose/00131.webp",
         "story": []
       }
     ]
@@ -264,27 +264,27 @@
     "id": 18,
     "name": "takami-chika",
     "series": "러브라이브!",
-    "image": "/images/takami-chika/pose/00143.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/takami-chika/pose/00143.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/takami-chika/pose/00145.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/takami-chika/pose/00145.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/takami-chika/pose/00139.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/takami-chika/pose/00139.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/takami-chika/pose/00145.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/takami-chika/pose/00145.webp",
         "story": []
       }
     ]
@@ -293,27 +293,27 @@
     "id": 19,
     "name": "sakurauchi-riko",
     "series": "러브라이브!",
-    "image": "/images/sakurauchi-riko/pose/00151.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/sakurauchi-riko/pose/00151.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/sakurauchi-riko/pose/00154.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/sakurauchi-riko/pose/00154.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/sakurauchi-riko/pose/00159.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/sakurauchi-riko/pose/00159.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/sakurauchi-riko/pose/00159.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/sakurauchi-riko/pose/00159.webp",
         "story": []
       }
     ]
@@ -322,27 +322,27 @@
     "id": 20,
     "name": "matsuura-kanan",
     "series": "러브라이브!",
-    "image": "/images/matsuura-kanan/pose/00169.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/matsuura-kanan/pose/00169.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/matsuura-kanan/pose/00176.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/matsuura-kanan/pose/00176.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/matsuura-kanan/pose/00176.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/matsuura-kanan/pose/00176.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/matsuura-kanan/pose/00169.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/matsuura-kanan/pose/00169.webp",
         "story": []
       }
     ]
@@ -351,27 +351,27 @@
     "id": 21,
     "name": "kurosawa-dia",
     "series": "러브라이브!",
-    "image": "/images/kurosawa-dia/pose/00181.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/kurosawa-dia/pose/00181.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/kurosawa-dia/pose/00188.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kurosawa-dia/pose/00188.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/kurosawa-dia/pose/00189.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kurosawa-dia/pose/00189.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/kurosawa-dia/pose/00194.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kurosawa-dia/pose/00194.webp",
         "story": []
       }
     ]
@@ -380,27 +380,27 @@
     "id": 22,
     "name": "watanabe-you",
     "series": "러브라이브!",
-    "image": "/images/watanabe-you/pose/00196.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/watanabe-you/pose/00196.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/watanabe-you/pose/00200.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/watanabe-you/pose/00200.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/watanabe-you/pose/00197.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/watanabe-you/pose/00197.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/watanabe-you/pose/00199.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/watanabe-you/pose/00199.webp",
         "story": []
       }
     ]
@@ -409,27 +409,27 @@
     "id": 23,
     "name": "tsushima-yoshiko",
     "series": "러브라이브!",
-    "image": "/images/tsushima-yoshiko/pose/00216.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/tsushima-yoshiko/pose/00216.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/tsushima-yoshiko/pose/00212.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/tsushima-yoshiko/pose/00212.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/tsushima-yoshiko/pose/00213.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/tsushima-yoshiko/pose/00213.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/tsushima-yoshiko/pose/00218.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/tsushima-yoshiko/pose/00218.webp",
         "story": []
       }
     ]
@@ -438,27 +438,27 @@
     "id": 24,
     "name": "kunikida-hanamaru",
     "series": "러브라이브!",
-    "image": "/images/kunikida-hanamaru/pose/00233.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/kunikida-hanamaru/pose/00233.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/kunikida-hanamaru/pose/00235.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kunikida-hanamaru/pose/00235.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/kunikida-hanamaru/pose/00238.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kunikida-hanamaru/pose/00238.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/kunikida-hanamaru/pose/00235.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kunikida-hanamaru/pose/00235.webp",
         "story": []
       }
     ]
@@ -467,27 +467,27 @@
     "id": 25,
     "name": "ohara-mari",
     "series": "러브라이브!",
-    "image": "/images/ohara-mari/pose/00255.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/ohara-mari/pose/00255.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/ohara-mari/pose/00249.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/ohara-mari/pose/00249.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/ohara-mari/pose/00246.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/ohara-mari/pose/00246.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/ohara-mari/pose/00250.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/ohara-mari/pose/00250.webp",
         "story": []
       }
     ]
@@ -496,27 +496,27 @@
     "id": 26,
     "name": "kurosawa-ruby",
     "series": "러브라이브!",
-    "image": "/images/kurosawa-ruby/pose/00265.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/kurosawa-ruby/pose/00265.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/kurosawa-ruby/pose/00270.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kurosawa-ruby/pose/00270.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/kurosawa-ruby/pose/00256.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kurosawa-ruby/pose/00256.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/kurosawa-ruby/pose/00260.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/kurosawa-ruby/pose/00260.webp",
         "story": []
       }
     ]
@@ -525,27 +525,27 @@
     "id": 27,
     "name": "uehara-ayumu",
     "series": "러브라이브!",
-    "image": "/images/uehara-ayumu/pose/00283.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/uehara-ayumu/pose/00283.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/uehara-ayumu/pose/00274.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/uehara-ayumu/pose/00274.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/uehara-ayumu/pose/00285.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/uehara-ayumu/pose/00285.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/uehara-ayumu/pose/00272.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/uehara-ayumu/pose/00272.webp",
         "story": []
       }
     ]
@@ -554,27 +554,27 @@
     "id": 28,
     "name": "nakasu-kasumi",
     "series": "러브라이브!",
-    "image": "/images/nakasu-kasumi/pose/00287.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/nakasu-kasumi/pose/00287.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/nakasu-kasumi/pose/00293.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/nakasu-kasumi/pose/00293.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/nakasu-kasumi/pose/00289.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/nakasu-kasumi/pose/00289.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/nakasu-kasumi/pose/00288.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/nakasu-kasumi/pose/00288.webp",
         "story": []
       }
     ]
@@ -583,27 +583,27 @@
     "id": 29,
     "name": "osaka-shizuku",
     "series": "러브라이브!",
-    "image": "/images/osaka-shizuku/pose/00314.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/osaka-shizuku/pose/00314.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/osaka-shizuku/pose/00313.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/osaka-shizuku/pose/00313.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/osaka-shizuku/pose/00301.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/osaka-shizuku/pose/00301.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/osaka-shizuku/pose/00312.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/osaka-shizuku/pose/00312.webp",
         "story": []
       }
     ]
@@ -612,27 +612,27 @@
     "id": 30,
     "name": "asaka-karin",
     "series": "러브라이브!",
-    "image": "/images/asaka-karin/pose/00328.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/asaka-karin/pose/00328.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/asaka-karin/pose/00318.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/asaka-karin/pose/00318.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/asaka-karin/pose/00318.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/asaka-karin/pose/00318.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/asaka-karin/pose/00316.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/asaka-karin/pose/00316.webp",
         "story": []
       }
     ]
@@ -641,27 +641,27 @@
     "id": 31,
     "name": "miyashita-ai",
     "series": "러브라이브!",
-    "image": "/images/miyashita-ai/pose/00344.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/miyashita-ai/pose/00344.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/miyashita-ai/pose/00344.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/miyashita-ai/pose/00344.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/miyashita-ai/pose/00341.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/miyashita-ai/pose/00341.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/miyashita-ai/pose/00343.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/miyashita-ai/pose/00343.webp",
         "story": []
       }
     ]
@@ -670,27 +670,27 @@
     "id": 32,
     "name": "konoe-kanata",
     "series": "러브라이브!",
-    "image": "/images/konoe-kanata/pose/00352.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/konoe-kanata/pose/00352.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/konoe-kanata/pose/00346.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/konoe-kanata/pose/00346.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/konoe-kanata/pose/00348.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/konoe-kanata/pose/00348.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/konoe-kanata/pose/00355.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/konoe-kanata/pose/00355.webp",
         "story": []
       }
     ]
@@ -699,27 +699,27 @@
     "id": 33,
     "name": "yuki-setsuna",
     "series": "러브라이브!",
-    "image": "/images/yuki-setsuna/pose/00363.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/yuki-setsuna/pose/00363.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/yuki-setsuna/pose/00371.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/yuki-setsuna/pose/00371.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/yuki-setsuna/pose/00371.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/yuki-setsuna/pose/00371.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/yuki-setsuna/pose/00373.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/yuki-setsuna/pose/00373.webp",
         "story": []
       }
     ]
@@ -728,27 +728,27 @@
     "id": 34,
     "name": "emma-verde",
     "series": "러브라이브!",
-    "image": "/images/emma-verde/pose/00383.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/emma-verde/pose/00383.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/emma-verde/pose/00386.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/emma-verde/pose/00386.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/emma-verde/pose/00378.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/emma-verde/pose/00378.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/emma-verde/pose/00378.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/emma-verde/pose/00378.webp",
         "story": []
       }
     ]
@@ -757,27 +757,27 @@
     "id": 35,
     "name": "tennouji-rina",
     "series": "러브라이브!",
-    "image": "/images/tennouji-rina/pose/00399.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/tennouji-rina/pose/00399.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/tennouji-rina/pose/00391.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/tennouji-rina/pose/00391.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/tennouji-rina/pose/00405.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/tennouji-rina/pose/00405.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/tennouji-rina/pose/00405.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/tennouji-rina/pose/00405.webp",
         "story": []
       }
     ]
@@ -786,27 +786,27 @@
     "id": 36,
     "name": "mifune-shioriko",
     "series": "러브라이브!",
-    "image": "/images/mifune-shioriko/pose/00414.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/mifune-shioriko/pose/00414.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/mifune-shioriko/pose/00409.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/mifune-shioriko/pose/00409.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/mifune-shioriko/pose/00418.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/mifune-shioriko/pose/00418.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/mifune-shioriko/pose/00415.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/mifune-shioriko/pose/00415.webp",
         "story": []
       }
     ]
@@ -815,27 +815,27 @@
     "id": 37,
     "name": "mia-taylor",
     "series": "러브라이브!",
-    "image": "/images/mia-taylor/pose/00424.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/mia-taylor/pose/00424.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/mia-taylor/pose/00433.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/mia-taylor/pose/00433.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/mia-taylor/pose/00424.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/mia-taylor/pose/00424.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/mia-taylor/pose/00427.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/mia-taylor/pose/00427.webp",
         "story": []
       }
     ]
@@ -844,27 +844,27 @@
     "id": 38,
     "name": "zhong-lanju",
     "series": "러브라이브!",
-    "image": "/images/zhong-lanju/pose/00446.webp",
+    "image": "https://animetoast.zowoo.uk/fan-gallery/character/zhong-lanju/pose/00446.webp",
     "themes": [
       {
         "id": "beach",
         "title": "해변",
         "description": "여름 바다에서의 한때",
-        "coverImage": "/images/zhong-lanju/pose/00436.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/zhong-lanju/pose/00436.webp",
         "story": []
       },
       {
         "id": "pose",
         "title": "포즈",
         "description": "다양한 모습들",
-        "coverImage": "/images/zhong-lanju/pose/00450.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/zhong-lanju/pose/00450.webp",
         "story": []
       },
       {
         "id": "amusement",
         "title": "놀이공원",
         "description": "즐거운 시간",
-        "coverImage": "/images/zhong-lanju/pose/00447.webp",
+        "coverImage": "https://animetoast.zowoo.uk/fan-gallery/character/zhong-lanju/pose/00447.webp",
         "story": []
       }
     ]
