@@ -1,12 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './StoryPanel.css';
 
 function StoryPanel({ image, narration, index }) {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
+  const [imageAspectRatio, setImageAspectRatio] = useState(null);
+  const imgRef = useRef(null);
 
-  const handleImageLoad = () => {
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img && img.complete) {
+      // 이미지가 이미 로드된 경우
+      const aspectRatio = img.naturalHeight / img.naturalWidth;
+      setImageAspectRatio(aspectRatio);
+    }
+  }, []);
+
+  const handleImageLoad = (e) => {
     setImageLoaded(true);
+    const img = e.target;
+    if (img.naturalWidth && img.naturalHeight) {
+      const aspectRatio = img.naturalHeight / img.naturalWidth;
+      setImageAspectRatio(aspectRatio);
+    }
   };
 
   const handleImageError = () => {
@@ -15,7 +31,10 @@ function StoryPanel({ image, narration, index }) {
 
   return (
     <div className="story-panel">
-      <div className="story-panel-image-container">
+      <div 
+        className="story-panel-image-container"
+        style={imageAspectRatio ? { paddingBottom: `${imageAspectRatio * 100}%` } : {}}
+      >
         {!imageLoaded && !imageError && (
           <div className="story-panel-loading">이미지 로딩 중...</div>
         )}
@@ -23,6 +42,7 @@ function StoryPanel({ image, narration, index }) {
           <div className="story-panel-error">이미지를 불러올 수 없습니다</div>
         ) : (
           <img
+            ref={imgRef}
             src={image}
             alt={`Story panel ${index + 1}`}
             className={`story-panel-image ${imageLoaded ? 'loaded' : ''}`}
