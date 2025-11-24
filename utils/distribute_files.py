@@ -67,12 +67,13 @@ def get_sorted_files(folder_path):
     return files
 
 
-def distribute_files(source_folder, files_per_group, character_file_path):
+def distribute_files(source_folder, output_folder, files_per_group, character_file_path):
     """
     파일들을 캐릭터 폴더별로 재배치합니다.
 
     Args:
         source_folder: 원본 파일이 있는 폴더 경로
+        output_folder: 출력 폴더 경로
         files_per_group: 그룹당 파일 개수
         character_file_path: character_folder.txt 파일 경로
     """
@@ -113,7 +114,7 @@ def distribute_files(source_folder, files_per_group, character_file_path):
             break  # 더 이상 파일이 없으면 종료
 
         # 대상 폴더 생성 (예: kousaka-honoka/pose)
-        target_folder = 'output' / Path(character) / subfolder_name
+        target_folder = Path(output_folder) / Path(character) / subfolder_name
         target_folder.mkdir(parents=True, exist_ok=True)
 
         print(f"[{character}] {len(group_files)}개 파일 이동 중...")
@@ -139,16 +140,17 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 사용 예시:
-  python distribute_files.py input/pose 15
+  python distribute_files.py input/pose output 15
 
   위 명령은 input/pose 폴더의 파일들을 15개씩 묶어서
-  kousaka-honoka/pose, ayase-eli/pose 등의 폴더로 이동합니다.
+  output/kousaka-honoka/pose, output/ayase-eli/pose 등의 폴더로 이동합니다.
 
   character_folder.txt 파일은 input/character_folder.txt 경로에 있어야 합니다.
         """
     )
 
     parser.add_argument('source_folder', help='원본 파일이 있는 폴더 경로 (예: input/pose)')
+    parser.add_argument('output_folder', help='출력 폴더 경로 (예: output)')
     parser.add_argument('files_per_group', type=int, help='그룹당 파일 개수 (예: 15)')
     parser.add_argument(
         '--character-file',
@@ -162,7 +164,7 @@ def main():
         print("오류: 그룹당 파일 개수는 1 이상이어야 합니다.")
         return
 
-    distribute_files(args.source_folder, args.files_per_group, args.character_file)
+    distribute_files(args.source_folder, args.output_folder, args.files_per_group, args.character_file)
 
 
 if __name__ == '__main__':
