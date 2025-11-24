@@ -40,13 +40,13 @@ def read_character_folders(character_file_path):
 
 def get_sorted_files(folder_path):
     """
-    폴더의 모든 파일을 정렬하여 반환합니다.
+    폴더의 png와 webp 파일만 정렬하여 반환합니다.
 
     Args:
         folder_path: 파일이 있는 폴더 경로
 
     Returns:
-        정렬된 파일 경로 리스트
+        정렬된 파일 경로 리스트 (png, webp만)
     """
     folder = Path(folder_path)
 
@@ -58,8 +58,9 @@ def get_sorted_files(folder_path):
         print(f"오류: '{folder_path}'는 폴더가 아닙니다.")
         return []
 
-    # 모든 파일 찾기 (하위 폴더 제외)
-    files = [f for f in folder.iterdir() if f.is_file()]
+    # 모든 파일 찾기 (하위 폴더 제외, png와 webp만)
+    allowed_extensions = {'.png', '.webp'}
+    files = [f for f in folder.iterdir() if f.is_file() and f.suffix.lower() in allowed_extensions]
 
     # 파일명으로 정렬
     files.sort(key=lambda x: x.name)
