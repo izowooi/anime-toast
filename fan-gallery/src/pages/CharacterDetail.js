@@ -88,7 +88,7 @@ function CharacterDetail() {
         </div>
 
         {/* 스토리 뷰어 */}
-        {selectedTheme && <StoryViewer theme={selectedTheme} />}
+        {selectedTheme && <StoryViewer theme={selectedTheme} characterName={character.name} />}
       </div>
       <Footer />
     </div>
