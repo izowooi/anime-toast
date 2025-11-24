@@ -1,5 +1,6 @@
 import os
 import json
+import argparse
 import boto3
 from pathlib import Path
 from dotenv import load_dotenv
@@ -16,9 +17,8 @@ BUCKET_NAME = os.getenv("R2_BUCKET_NAME")
 PUBLIC_DOMAIN = os.getenv("R2_PUBLIC_DOMAIN", "")  # 없으면 빈 문자열
 
 # 경로 설정
-SOURCE_DIR = Path("./input/r2/fan-gallery")  # 이미지가 있는 폴더
 MANIFEST_FILE = Path("./input/r2/images.json")  # React 프로젝트 내의 json 위치라고 가정
-R2_FOLDER_PREFIX = "fan-gallery/"  # R2 버킷 내에 저장될 폴더명
+R2_FOLDER_PREFIX = "fan-gallery/character/"  # R2 버킷 내에 저장될 폴더명 (항상 character로 고정)
 
 
 def get_r2_client():
@@ -88,7 +88,34 @@ def collect_registered_files(manifest_dict):
     return registered
 
 
-def main():
+def extract_character_path(source_dir, file_path):
+    """
+    파일 경로에서 character 폴더 이후의 경로를 추출합니다.
+    character 폴더가 없으면 전체 경로를 character/... 형태로 변환합니다.
+    
+    Args:
+        source_dir: 소스 디렉토리 경로
+        file_path: 파일 전체 경로
+    
+    Returns:
+        character 폴더 이후의 상대 경로 (예: asaka-karin/pose/00316.webp)
+    """
+    # 소스 디렉토리 기준 상대 경로 계산
+    relative_path = file_path.relative_to(source_dir)
+    parts = list(relative_path.parts)
+    
+    # 경로에서 'character' 폴더 찾기
+    try:
+        character_idx = parts.index('character')
+        # character 폴더 이후의 경로만 반환
+        return Path(*parts[character_idx + 1:])
+    except ValueError:
+        # character 폴더가 없으면 전체 경로를 그대로 반환
+        # (이미 character/... 형태로 변환되어 있거나, 다른 구조일 수 있음)
+        return relative_path
+
+
+def main(source_dir):
     s3 = get_r2_client()
     manifest = load_manifest()
 
@@ -100,56 +127,67 @@ def main():
 
     # 소스 디렉토리 순회 (이미지 파일만, 재귀적으로)
     extensions = {'.png', '.jpg', '.jpeg', '.webp'}
-    files = [f for f in SOURCE_DIR.rglob('*') if f.is_file() and f.suffix.lower() in extensions]
+    files = [f for f in source_dir.rglob('*') if f.is_file() and f.suffix.lower() in extensions]
 
-    print(f"📂 Found {len(files)} files in {SOURCE_DIR}...")
+    print(f"📂 Found {len(files)} files in {source_dir}...")
 
     for file_path in files:
-        # 파일의 상대 경로를 계산 (폴더 구조 유지)
-        relative_path = file_path.relative_to(SOURCE_DIR)
-        # R2에 저장될 Key (경로 + 상대 경로, Windows 호환성을 위해 슬래시로 통일)
-        r2_key = f"{R2_FOLDER_PREFIX}{str(relative_path).replace(chr(92), '/')}"
+        # character 폴더 이후의 경로 추출
+        character_relative_path = extract_character_path(source_dir, file_path)
+        # R2에 저장될 Key (항상 fan-gallery/character/... 형태)
+        r2_key = f"{R2_FOLDER_PREFIX}{str(character_relative_path).replace(chr(92), '/')}"
         r2_key_normalized = r2_key.replace('\\', '/')
 
         # 1. R2 업로드 체크
         # 파일이 로컬에 있고 R2에 없는 경우에만 업로드
-        if file_exists_in_r2(s3, BUCKET_NAME, r2_key):
-            print(f"⏭️  Skipping upload (Exists in R2): {relative_path}")
+        if file_exists_in_r2(s3, BUCKET_NAME, r2_key_normalized):
+            print(f"⏭️  Skipping upload (Exists in R2): {character_relative_path}")
         else:
-            print(f"⬆️  Uploading: {relative_path}")
+            print(f"⬆️  Uploading: {character_relative_path} -> {r2_key_normalized}")
             try:
-                s3.upload_file(str(file_path), BUCKET_NAME, r2_key)
+                s3.upload_file(str(file_path), BUCKET_NAME, r2_key_normalized)
             except Exception as e:
-                print(f"❌ Failed to upload {relative_path}: {e}")
+                print(f"❌ Failed to upload {character_relative_path}: {e}")
                 continue  # 업로드 실패 시 JSON 추가 건너뜀
 
         # 2. JSON 데이터 갱신 (계층 구조로)
         # 업로드 여부와 관계없이, JSON에 정보가 없으면 추가
         if r2_key_normalized not in registered_files:
-            # 경로를 분리 (예: character/asaka-karin/pose/00316.webp)
-            parts = str(relative_path).replace('\\', '/').split('/')
+            # 경로를 분리 (예: asaka-karin/pose/00316.webp)
+            parts = str(character_relative_path).replace('\\', '/').split('/')
 
-            # 최소 3단계 깊이가 필요 (category/name/type/filename)
-            if len(parts) >= 3:
-                category = parts[0]  # "character"
-                name = parts[1]      # "asaka-karin"
-                type_key = parts[2]  # "pose"
-
+            # 최소 2단계 깊이가 필요 (name/type/filename 또는 name/filename)
+            # category는 항상 "character"로 고정
+            category = "character"
+            
+            if len(parts) >= 2:
+                name = parts[0]      # "asaka-karin"
+                type_key = parts[1]  # "pose" 또는 파일명일 수도 있음
+                
                 # 딕셔너리 구조 생성 (없으면 생성)
                 if category not in manifest:
                     manifest[category] = {}
                 if name not in manifest[category]:
                     manifest[category][name] = {}
-                if type_key not in manifest[category][name]:
-                    manifest[category][name][type_key] = []
-
-                # 배열에 R2 전체 경로 추가
-                manifest[category][name][type_key].append(r2_key_normalized)
+                
+                # 3단계 이상이면 type_key가 폴더명, 아니면 파일명
+                if len(parts) >= 3:
+                    # name/type/filename 구조
+                    if type_key not in manifest[category][name]:
+                        manifest[category][name][type_key] = []
+                    manifest[category][name][type_key].append(r2_key_normalized)
+                else:
+                    # name/filename 구조 (type이 없는 경우)
+                    filename = parts[1]
+                    if filename not in manifest[category][name]:
+                        manifest[category][name][filename] = []
+                    manifest[category][name][filename].append(r2_key_normalized)
+                
                 registered_files.add(r2_key_normalized)
                 new_entries.append(r2_key_normalized)
             else:
                 # 깊이가 부족한 경우 경고
-                print(f"⚠️  Skipping (insufficient path depth): {relative_path}")
+                print(f"⚠️  Skipping (insufficient path depth): {character_relative_path}")
 
     # 변경사항이 있을 때만 JSON 저장
     if new_entries:
@@ -160,8 +198,34 @@ def main():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description='이미지 파일을 R2 버킷에 업로드하고 manifest JSON을 업데이트합니다.',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+사용 예시:
+  python r2_uploader.py input/r2/fan-gallery
+  python r2_uploader.py input/lovelive
+  python r2_uploader.py input/gundam
+
+모든 이미지는 fan-gallery/character/ 경로로 업로드됩니다.
+        """
+    )
+    
+    parser.add_argument(
+        'source_dir',
+        type=str,
+        help='이미지가 있는 소스 폴더 경로 (예: input/r2/fan-gallery 또는 input/lovelive)'
+    )
+    
+    args = parser.parse_args()
+    
+    # 소스 디렉토리 경로 변환
+    source_dir = Path(args.source_dir)
+    
     # 소스 폴더가 없으면 에러 처리
-    if not SOURCE_DIR.exists():
-        print(f"❌ Error: Source directory '{SOURCE_DIR}' not found.")
+    if not source_dir.exists():
+        print(f"❌ Error: Source directory '{source_dir}' not found.")
+    elif not source_dir.is_dir():
+        print(f"❌ Error: '{source_dir}' is not a directory.")
     else:
-        main()
+        main(source_dir)
