@@ -41,7 +41,7 @@ function CharacterCard({ character }) {
         />
       </div>
       <div className="character-info">
-        <h3 className="character-name">{character.name}</h3>
+        <h3 className="character-name">{character.name_kr || character.name}</h3>
         <p className="character-series">{character.series}</p>
       </div>
     </Link>

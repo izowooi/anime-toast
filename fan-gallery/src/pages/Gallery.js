@@ -13,10 +13,12 @@ function Gallery() {
       return charactersData;
     }
 
-    return charactersData.filter((character) =>
-      character.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      character.series.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    return charactersData.filter((character) => {
+      const nameMatch = character.name.toLowerCase().includes(searchTerm.toLowerCase());
+      const nameKrMatch = character.name_kr && character.name_kr.includes(searchTerm);
+      const seriesMatch = character.series.toLowerCase().includes(searchTerm.toLowerCase());
+      return nameMatch || nameKrMatch || seriesMatch;
+    });
   }, [searchTerm]);
 
   return (

@@ -46,7 +46,7 @@ function CharacterDetail() {
             <button onClick={() => navigate('/')} className="back-button">
               ← 갤러리로 돌아가기
             </button>
-            <h1>{character.name}</h1>
+            <h1>{character.name_kr || character.name}</h1>
             <p className="series-name">{character.series}</p>
           </div>
           <div className="no-themes-message">
@@ -67,7 +67,7 @@ function CharacterDetail() {
           <button onClick={() => navigate('/')} className="back-button">
             ← 갤러리로 돌아가기
           </button>
-          <h1>{character.name}</h1>
+          <h1>{character.name_kr || character.name}</h1>
           <p className="series-name">{character.series}</p>
         </div>
 
