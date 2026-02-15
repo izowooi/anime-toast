@@ -66,6 +66,267 @@ Suno의 Custom Mode에서 가사는 **대괄호 섹션 태그**로 곡의 뼈대
 [Instrument: Keys, Soft Drums]
 ```
 
+---
+
+## 1-1. 메타 태그 완전 가이드 (1000+ Tags)
+
+Suno AI는 대괄호 `[ ]` 형식의 메타 태그를 통해 음악의 세부 요소를 제어한다. 메타 태그는 가사 필드에 직접 삽입하거나, Style 필드에 대괄호 없이 키워드로 사용할 수 있다.
+
+### 🎸 필수 카테고리
+
+#### 📜 곡 구조 (Song Structure)
+
+**기본 구조:**
+- `[Verse]`, `[Verse 1]`, `[Verse 2]` — 절
+- `[Chorus]`, `[Chorus x2]` — 후렴
+- `[Bridge]` — 브릿지
+- `[Intro]`, `[Outro]` — 시작/종료
+- `[Pre-Chorus]`, `[Post-Chorus]` — 코러스 전후
+
+**고급 구조:**
+- `[Instrumental Break]` — 기악 간주
+- `[Solo Section]` — 솔로 구간
+
+#### 🌙 무드 & 분위기 (Mood & Atmosphere)
+
+**감정 태그:**
+- `[Melancholic]` — 우울한
+- `[Euphoric]` — 황홀한
+- `[Nostalgic]` — 향수를 자아내는
+- `[Dreamy]` — 몽환적인
+- `[Aggressive]` — 공격적인
+- `[Peaceful]` — 평화로운
+- `[Mysterious]` — 신비로운
+
+**분위기 태그:**
+- `[Dark Atmosphere]` — 어두운 분위기
+- `[Bright Atmosphere]` — 밝은 분위기
+- `[Ambient Atmosphere]` — 앰비언트 분위기
+- `[Intimate Atmosphere]` — 친밀한 분위기
+
+#### ⚡ 에너지 & 강도 (Energy & Intensity)
+
+**에너지 레벨:**
+- `[High Energy]` — 높은 에너지
+- `[Medium Energy]` — 중간 에너지
+- `[Low Energy]` — 낮은 에너지
+- `[Building Energy]` — 점차 증가하는 에너지
+- `[Explosive Energy]` — 폭발적 에너지
+
+**강도 조절:**
+- `[Intense]` — 강렬한
+- `[Gentle]` — 부드러운
+- `[Powerful]` — 파워풀한
+- `[Subtle]` — 미묘한
+- `[Dynamic]` — 역동적인
+
+#### 🎸 악기 (Instruments)
+
+**현악기:**
+- `[Electric Guitar]` — 일렉트릭 기타
+- `[Acoustic Guitar]` — 어쿠스틱 기타
+- `[Bass Guitar]` — 베이스 기타
+- `[Violin]` — 바이올린
+- `[Cello]` — 첼로
+
+**타악기:**
+- `[Drums]` — 드럼
+- `[Electronic Drums]` — 일렉트로닉 드럼
+- `[Hand Percussion]` — 핸드 퍼커션
+- `[Timpani]` — 팀파니
+
+**건반 & 신스:**
+- `[Piano]` — 피아노
+- `[Electric Piano]` — 일렉트릭 피아노
+- `[Synthesizer]` — 신시사이저
+- `[Organ]` — 오르간
+- `[Strings Section]` — 스트링 섹션
+
+**관악기:**
+- `[Saxophone]` — 색소폰
+- `[Trumpet]` — 트럼펫
+- `[Flute]` — 플룻
+- `[Clarinet]` — 클라리넷
+
+#### 🎵 장르 (Genre)
+
+**인기 장르:**
+- `[Pop]`, `[Rock]`, `[Hip-Hop]`, `[Electronic]`
+- `[Jazz]`, `[Classical]`, `[Folk]`, `[R&B]`
+- `[Country]`, `[Reggae]`
+
+**일렉트로닉 서브장르:**
+- `[House]`, `[Techno]`, `[Ambient]`
+- `[Dubstep]`, `[Trance]`
+
+**록 서브장르:**
+- `[Alternative Rock]`, `[Hard Rock]`
+- `[Indie Rock]`, `[Progressive Rock]`
+
+#### 🎤 보컬 & 음성 (Vocal & Voice)
+
+**보컬 스타일:**
+- `[Male Vocals]`, `[Female Vocals]`
+- `[Harmonies]` — 하모니
+- `[Choir]` — 합창
+- `[Whispered Vocals]` — 속삭이는 보컬
+- `[Powerful Vocals]` — 파워풀한 보컬
+- `[Smooth Vocals]` — 부드러운 보컬
+
+**테크닉:**
+- `[Falsetto]` — 팔세토
+- `[Vibrato]` — 비브라토
+- `[Melismatic]` — 멜리스마틱
+- `[Staccato Vocals]` — 스타카토 보컬
+- `[Legato Vocals]` — 레가토 보컬
+
+**음성 특성:**
+- `[Raspy Voice]` — 거친 목소리
+- `[Clear Voice]` — 맑은 목소리
+- `[Deep Voice]` — 깊은 목소리
+- `[High Voice]` — 높은 목소리
+- `[Soulful Voice]` — 소울풀한 목소리
+
+### 🚀 고급 카테고리
+
+#### 🎛️ 프로덕션 & 이펙트 (Production & Effects)
+
+**리버브:**
+- `[Hall Reverb]` — 홀 리버브
+- `[Room Reverb]` — 룸 리버브
+- `[Plate Reverb]` — 플레이트 리버브
+- `[Spring Reverb]` — 스프링 리버브
+- `[No Reverb]` — 리버브 없음
+
+**딜레이:**
+- `[Echo]` — 에코
+- `[Delay]` — 딜레이
+- `[Slapback Delay]` — 슬랩백 딜레이
+- `[Ping Pong Delay]` — 핑퐁 딜레이
+
+**디스토션:**
+- `[Distortion]` — 디스토션
+- `[Overdrive]` — 오버드라이브
+- `[Fuzz]` — 퍼즈
+- `[Clean]` — 클린
+
+**모듈레이션:**
+- `[Chorus]` — 코러스
+- `[Flanger]` — 플랜저
+- `[Phaser]` — 페이저
+- `[Tremolo]` — 트레몰로
+
+#### 🎹 코드 진행 & 하모니 (Chord Progressions & Harmony)
+
+**클래식 진행:**
+- `[I-V-vi-IV]`, `[vi-IV-I-V]`
+- `[I-vi-IV-V]`, `[ii-V-I]`
+
+**화성 특성:**
+- `[Major Harmony]` — 장조 화성
+- `[Minor Harmony]` — 단조 화성
+- `[Modal Harmony]` — 모달 화성
+- `[Jazz Harmony]` — 재즈 화성
+- `[Dissonant Harmony]` — 불협화 화성
+
+#### 🔊 사운드 이펙트 (Sound Effects)
+
+**자연음:**
+- `[Rain]` — 비
+- `[Thunder]` — 천둥
+- `[Wind]` — 바람
+- `[Ocean Waves]` — 파도
+- `[Fire Crackling]` — 불 타는 소리
+
+**뮤지컬 이펙트:**
+- `[Vinyl Crackle]` — 바이닐 크래클
+- `[Tape Hiss]` — 테이프 히스
+- `[Record Scratch]` — 레코드 스크래치
+- `[Reverse Reverb]` — 역재생 리버브
+- `[Risers]` — 라이저
+- `[Impacts]` — 임팩트
+
+#### 🎼 음악 키 & 스케일 (Musical Keys & Scales)
+
+**장조:**
+- `[C Major]`, `[G Major]`, `[D Major]`
+- `[A Major]`, `[E Major]`
+
+**단조:**
+- `[A Minor]`, `[E Minor]`
+- `[B Minor]`, `[F# Minor]`
+
+**모드:**
+- `[Dorian Mode]`, `[Mixolydian Mode]`
+- `[Lydian Mode]`, `[Phrygian Mode]`
+
+#### 🥁 리듬 & 템포 (Rhythm & Tempo)
+
+**템포:**
+- `[Slow Tempo]` — 느린 템포
+- `[Medium Tempo]` — 중간 템포
+- `[Fast Tempo]` — 빠른 템포
+- `[Very Fast]` — 매우 빠른
+
+**느낌:**
+- `[Straight Feel]` — 스트레이트 필
+- `[Swing Feel]` — 스윙 필
+- `[Shuffle Feel]` — 셔플 필
+- `[Latin Feel]` — 라틴 필
+
+**박자:**
+- `[4/4 Time]` — 4/4 박자
+- `[3/4 Time]` — 3/4 박자
+- `[6/8 Time]` — 6/8 박자
+- `[5/4 Time]` — 5/4 박자
+
+---
+
+## 1-2. 메타 태그 조합 전략
+
+### 🎯 레이어링 접근법
+
+메타 태그는 **계층적으로 조합**해야 효과적이다:
+
+1. **Foundation (기초)** → Genre + Tempo
+2. **Emotion (감정)** → Mood + Energy
+3. **Technical (기술)** → Production + Effects
+4. **Vocal (보컬)** → Voice + Style
+
+### 🔄 다이내믹 진행 (Dynamic Progression)
+
+섹션별로 다른 분위기를 설정하여 곡에 **극적인 흐름**을 만든다:
+
+```
+[Intro]: [Atmospheric], [Gentle]
+[Verse]: [Introspective], [Soft]
+[Pre-Chorus]: [Building Energy]
+[Chorus]: [Powerful], [High Energy]
+[Bridge]: [Cinematic], [Emotional]
+```
+
+### ⚡ 창의적 대조 (Creative Contrast)
+
+상반된 요소를 조합하여 **독특한 사운드**를 만든다:
+
+- `[Gentle]` + `[Distorted Guitar]` — 부드러운 멜로디와 왜곡된 기타
+- `[Electronic]` + `[Acoustic Drums]` — 전자음과 어쿠스틱 드럼
+- `[Dark]` + `[Uplifting]` — 어두우면서도 고양되는
+
+### 🎯 태그 사용 베스트 프랙티스
+
+**권장 사항:**
+- 섹션당 **3~5개 태그** 사용
+- 모순되는 태그 피하기 (예: `[Calm]` + `[Aggressive]`)
+- 구체적으로 명시 (예: `[Gentle]`보다 `[Gentle Female Vocals]`)
+- 구조를 명확히 정의
+
+**흔한 실수:**
+- 태그를 너무 많이 사용 (10개 이상)
+- 충돌하는 태그 조합
+- 모호한 설명
+- 구조 태그 무시
+
 ### 일본어 가사 입력 시 핵심 주의사항
 
 일본어 가사를 Suno에 입력할 때 **가장 중요한 원칙은 히라가나 중심으로 작성하는 것**이다. 한자(漢字)는 여러 읽기(음독/훈독)가 있어 AI가 오독할 수 있고, 로마자(romaji)는 영어로 인식되어 발음이 망가진다.
@@ -227,6 +488,63 @@ J-pop, electropop, 148 BPM, energetic female vocals, bright synths, piano, emoti
 
 **Simple Mode**는 하나의 텍스트 설명만 입력하면 AI가 가사·멜로디·구조를 모두 자동 생성한다. 빠른 실험에 유용하지만 정밀한 제어가 불가능하다. **Custom Mode**는 Title, Lyrics, Style of Music를 각각 분리해 입력할 수 있으며, 섹션 태그·메타태그·퍼소나 선택이 가능하다. 고품질 결과물을 원한다면 **항상 Custom Mode를 사용**해야 한다.
 
+### 🎛️ 고급 파라미터 (Advanced Parameters)
+
+#### 🚫 Exclude Styles (스타일 제외)
+
+원하지 않는 요소를 명시적으로 제외할 수 있다:
+
+```
+STYLE: Pop, Female Vocal, Piano
+EXCLUDE: Male Vocal, Electric Guitar, Dark
+```
+
+이 기능은 AI가 특정 방향으로 가지 않도록 **음수 프롬프트** 역할을 한다.
+
+#### 🎭 Vocal Gender (보컬 성별)
+
+Custom Mode에서 명시적으로 선택:
+- Male (남성)
+- Female (여성)
+
+Style 필드와 별도로 설정 가능하며, 가사 필드의 `[Male Vocal]` / `[Female Vocal]` 태그와 병행 사용하면 더 정확하다.
+
+#### 🎪 Weirdness Control (창의성 조절)
+
+**범위: 0–100%**
+
+| 범위 | 결과 |
+|------|------|
+| 0–30% | 안전하고 예측 가능 (보수적) |
+| 40–60% | 균형잡힌 (권장) |
+| 70–100% | 실험적이고 독특한 |
+
+- **YOASOBI 스타일**: 30-40% 권장 (안정적 사운드 유지)
+- **실험적 곡**: 60-80% (새로운 사운드 탐색)
+
+#### 🎯 Style Influence (스타일 영향력)
+
+**범위: 0–100%**
+
+| 범위 | 효과 |
+|------|------|
+| 0–30% | 느슨한 해석 (AI 재량 많음) |
+| 40–60% | 균형 |
+| 70–100% | 엄격한 준수 (프롬프트 충실) |
+
+- **정밀한 제어 필요시**: 70-80% 설정
+- **AI의 창의성 허용**: 40-60% 설정
+
+#### 🔥 프로페셔널 세팅 공식
+
+고품질 결과를 위한 권장 설정:
+
+1. **15~20개 정밀한 태그** 정의
+2. **Style Influence: 70–80%** 설정
+3. **Weirdness: 40–60%** 유지
+4. **Exclude Styles** 적극 활용
+5. **테스트 & 개선** 반복
+
 ### Instrumental 토글
 
 Custom Mode에서 **Instrumental 토글을 켜면** 보컬 없이 기악곡만 생성된다. 배경음악, 팟캐스트 BGM, 게임/영상 음악 제작에 적합하다. Simple Mode에서도 프롬프트에 "instrumental"을 명시하면 비슷한 효과를 얻을 수 있다.
@@ -317,6 +635,53 @@ YOASOBI 스타일 기준으로 아래 조합을 순차 테스트:
 
 ---
 
+## 6-1. 메타 태그 실전 예시
+
+### 🌟 Psychedelic Rock (사이키델릭 록)
+
+**Style 필드:**
+```
+Psychedelic Rock, Progressive Rock, 140 BPM, Male Vocal, Electric Guitar, Hammond Organ, Reverb Heavy, Delay, Phaser
+```
+
+**메타 태그 조합:**
+- 장르: Psychedelic Rock, Progressive Rock
+- 악기: Electric Guitar, Hammond Organ
+- 이펙트: Reverb Heavy, Delay, Phaser
+- 보컬: Male Vocal
+
+### 🌟 EDM (일렉트로닉 댄스 뮤직)
+
+**Style 필드:**
+```
+EDM, Progressive House, 128 BPM, Synth Lead, TR-808, Sidechain Compression, Wall of Sound
+```
+
+**고급 세팅:**
+- Weirdness: 40%
+- Style Influence: 80%
+- Exclude: Acoustic, Slow Tempo
+
+**메타 태그 조합:**
+- 장르: EDM, Progressive House
+- 악기: Synth Lead, TR-808
+- 프로덕션: Sidechain Compression, Wall of Sound
+
+### 🌟 J-Pop Ballad (제이팝 발라드)
+
+**Style 필드:**
+```
+J-Pop, Ballad, 80 BPM, Emotional Female Vocals, Piano, Strings Section, Melancholic, Intimate Atmosphere
+```
+
+**메타 태그 조합:**
+- 장르: J-Pop, Ballad
+- 보컬: Emotional Female Vocals
+- 악기: Piano, Strings Section
+- 무드: Melancholic, Intimate Atmosphere
+
+---
+
 ## 실전 워크플로우: 고품질 곡 생성 7단계
 
 **Step 1 — 비전 정의:** 장르, BPM, 무드, 보컬 타입을 먼저 결정한다. 레퍼런스 곡 2~3곡을 선정해 목표 사운드를 명확히 한다.
@@ -351,3 +716,39 @@ YOASOBI 스타일 기준으로 아래 조합을 순차 테스트:
 ## 결론: YOASOBI 스타일 최적 세팅 요약
 
 YOASOBI 사운드를 Suno에서 재현하기 위한 최종 권장 세팅은 다음과 같다. Style Prompt에는 `J-pop, electropop, 145-150 BPM, energetic female vocals, bright synths, piano, emotional, fast-paced`를 넣고, 가사는 히라가나 중심의 4줄 Verse / 4줄 Chorus 구조로 작성하며, `[Build-Up]`과 `[Energy: High]`를 코러스 전후에 배치한다. V5 또는 V4.5 모델에서 Custom Mode를 사용하되, 매 생성마다 **한 변수만 조정하며 반복 실험**하는 것이 핵심이다. 프롬프트는 "명령"이 아니라 "제안"이므로, 같은 설정으로 5~10회 생성해 최적의 테이크를 선별하는 접근이 가장 현실적이고 효과적인 전략이다.
+
+---
+
+## 🚀 완벽한 트랙 제작 공식 (Ultimate Success Formula)
+
+고품질 음악을 생성하기 위한 **8가지 핵심 요소**:
+
+```
+GENRE (장르)
+  +
+MOOD (무드)
+  +
+LEAD INSTRUMENT (주요 악기)
+  +
+VOCAL STYLE (보컬 스타일)
+  +
+ATMOSPHERE (분위기)
+  +
+PRODUCTION (프로덕션)
+  +
+STRUCTURE (구조)
+  +
+PERSONAL TOUCH (개인적 터치)
+  =
+PERFECT TRACK (완벽한 트랙)
+```
+
+### 🎵 최종 조언
+
+1. **간단하게 시작하라** — 핵심 요소 4~5개로 시작
+2. **점진적으로 레이어 추가** — 한 번에 1~2개 요소만 추가
+3. **변형 테스트** — 같은 가사로 다른 스타일 시도
+4. **성공 사례 분석** — 좋은 결과물의 패턴 연구
+5. **고급 파라미터로 정제** — Weirdness, Style Influence 조정
+
+**기억하세요:** Suno AI는 예술적 파트너입니다. 완벽한 첫 시도를 기대하지 말고, 반복과 실험을 통해 원하는 사운드를 찾아가세요.
