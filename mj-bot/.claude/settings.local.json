@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(.venv/bin/pip uninstall:*)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(uv pip uninstall:*)",
+      "Bash(uv pip install:*)",
+      "Bash(timeout:*)",
+      "Bash(.venv/bin/python:*)"
+    ]
+  }
+}
