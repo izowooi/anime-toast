@@ -18,13 +18,18 @@ import discord
 
 load_dotenv()
 
-# ───── 설정값 (여기서 수정) ─────
+# ───── 설정값 ─────
 TOKEN      = os.getenv("DISCORD_TOKEN")   # .env 파일에서 로드
 CHANNEL_ID = int(os.getenv("CHANNEL_ID", "0"))
 SERVER_ID  = int(os.getenv("SERVER_ID", "0"))   # 채널이 속한 서버(Guild) ID
 
+# 각 항목: {"prompt": str, "filename": str}
+# filename은 확장자 없는 파일명. 없으면 타임스탬프+프롬프트 slug로 자동 생성
 PROMPTS = [
-    "close-up of traffic light blinking, soft bokeh background with girl silhouette, warm afternoon glow, anime style --ar 16:9 --niji 7"
+    {
+        "prompt": "close-up of traffic light blinking, soft bokeh background with girl silhouette, warm afternoon glow, anime style --ar 16:9 --niji 6",
+        "filename": "",
+    }
 ]
 
 DELAY_BETWEEN = 8      # 프롬프트 제출 간격 (초) — 너무 빠르면 rate limit
@@ -40,18 +45,21 @@ MJ_BOT_USER_ID = 1022952195194359889
 class JobState:
     def __init__(self):
         self.current_prompt = ""
+        self.current_filename = ""
         self.waiting = False
         self.done_event = asyncio.Event()
         self.results: list[dict] = []
 
-    def reset(self, prompt: str):
+    def reset(self, prompt: str, filename: str = ""):
         self.current_prompt = prompt
+        self.current_filename = filename
         self.waiting = True
         self.done_event = asyncio.Event()
 
     def complete(self, url: str):
         self.results.append({
             "prompt": self.current_prompt,
+            "filename": self.current_filename,
             "url": url,
             "timestamp": datetime.now().isoformat(),
         })
@@ -61,6 +69,7 @@ class JobState:
     def fail(self, reason: str):
         self.results.append({
             "prompt": self.current_prompt,
+            "filename": self.current_filename,
             "url": None,
             "error": reason,
             "timestamp": datetime.now().isoformat(),
@@ -78,7 +87,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print(f"[✓] 로그인: {client.user} (ID: {client.user.id})")
-    OUTPUT_DIR.mkdir(exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     asyncio.get_event_loop().create_task(run_batch())
 
 
@@ -118,7 +127,7 @@ async def on_message(message: discord.Message):
         print(f"    URL: {url[:80]}...")
 
         # 이미지 다운로드
-        await download_image(url, job.current_prompt)
+        await download_image(url, job.current_filename, job.current_prompt)
         job.complete(url)
 
 
@@ -141,12 +150,7 @@ async def send_imagine(channel: discord.TextChannel, prompt: str):
     guild = channel.guild
 
     try:
-        # MJ Bot의 슬래시 커맨드 목록 가져오기
-        # discord.py-self 전용 API
-        mj_bot = guild.get_member(MJ_BOT_APP_ID)
-
         # Application Commands 방식
-        # guild.slash_commands() 또는 channel.slash_commands()
         commands = await guild.application_commands()
         imagine_cmd = next(
             (cmd for cmd in commands if cmd.name == "imagine"),
@@ -178,8 +182,6 @@ async def send_imagine_http(channel: discord.TextChannel, prompt: str):
     Discord Interaction API를 HTTP로 직접 호출하는 fallback.
     /imagine의 command_id는 서버마다 다를 수 있으나 보통 고정.
     """
-    # /imagine의 application command ID (MJ 공식)
-    # 변경될 수 있으니 fetch_imagine_command_id()로 동적으로 가져오는 게 안전
     command_id = await fetch_imagine_command_id(channel.guild)
     if not command_id:
         print("[✗] command_id 조회 실패")
@@ -266,10 +268,18 @@ async def fetch_imagine_command_id(guild: discord.Guild) -> int | None:
 
 # ───── 이미지 다운로드 ─────
 
-async def download_image(url: str, prompt: str):
-    safe = re.sub(r'[^\w-]', '_', prompt[:40].strip())
-    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    path = OUTPUT_DIR / f"{ts}_{safe}.png"
+async def download_image(url: str, filename: str = "", prompt: str = ""):
+    """
+    filename이 제공되면 그대로 사용 (.png 자동 추가).
+    없으면 타임스탬프 + 프롬프트 slug로 자동 생성.
+    """
+    if filename:
+        safe = re.sub(r'[^\w\-]', '_', filename)
+        path = OUTPUT_DIR / f"{safe}.png"
+    else:
+        safe = re.sub(r'[^\w-]', '_', prompt[:40].strip())
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        path = OUTPUT_DIR / f"{ts}_{safe}.png"
 
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as resp:
@@ -295,12 +305,18 @@ async def run_batch():
     print(f"\n{'='*50}")
     print(f" Batch 시작: {len(PROMPTS)}개 프롬프트")
     print(f" 채널: #{channel.name}")
+    print(f" 출력 디렉토리: {OUTPUT_DIR}")
     print(f"{'='*50}\n")
 
-    for i, prompt in enumerate(PROMPTS, 1):
-        print(f"[{i}/{len(PROMPTS)}] {prompt[:60]}...")
+    for i, item in enumerate(PROMPTS, 1):
+        prompt = item["prompt"] if isinstance(item, dict) else item
+        filename = item.get("filename", "") if isinstance(item, dict) else ""
 
-        job.reset(prompt)
+        print(f"[{i}/{len(PROMPTS)}] {prompt[:60]}...")
+        if filename:
+            print(f"         파일명: {filename}.png")
+
+        job.reset(prompt, filename)
 
         # 슬래시 커맨드 전송
         success = await send_imagine(channel, prompt)
@@ -333,23 +349,42 @@ async def run_batch():
     print(f" 성공: {success_count} / {len(PROMPTS)}")
     for r in job.results:
         icon = "✓" if r.get("url") else "✗"
-        print(f" {icon} {r['prompt'][:55]}...")
+        label = r.get("filename") or r["prompt"][:55]
+        print(f" {icon} {label}")
     print()
 
     await client.close()
 
 
-# ───── 진입점 ─────
-if __name__ == "__main__":
+# ───── 진입점 (외부 import용) ─────
+
+def main(prompts=None, output_dir=None):
+    """
+    외부 스크립트에서 호출 가능한 진입점.
+    prompts: list[dict] — [{"prompt": str, "filename": str}, ...]
+    output_dir: str 또는 Path
+    """
+    global PROMPTS, OUTPUT_DIR
+
+    if prompts is not None:
+        PROMPTS = prompts
+    if output_dir is not None:
+        OUTPUT_DIR = Path(output_dir)
+
     missing = []
-    if not TOKEN:    missing.append("DISCORD_TOKEN")
+    if not TOKEN:     missing.append("DISCORD_TOKEN")
     if not CHANNEL_ID: missing.append("CHANNEL_ID")
     if not SERVER_ID:  missing.append("SERVER_ID")
 
     if missing:
         print(f"[✗] .env에 다음 값이 없습니다: {', '.join(missing)}")
         print("    .env.example을 참고하세요.")
-        exit(1)
+        raise SystemExit(1)
 
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     print("[…] Discord에 연결 중...")
     client.run(TOKEN)
+
+
+if __name__ == "__main__":
+    main()
