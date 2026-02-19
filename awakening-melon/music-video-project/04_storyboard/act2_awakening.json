@@ -18,7 +18,7 @@
       "mood": "realization",
       "visual_style": "빛이 서서히 밝아지기 시작, 채도가 조금씩 상승",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "medium shot, young woman with pastel green hair stopping, realization moment, light beginning to glow, anime style --ar 16:9 --niji 6 --cw 100"
+      "niji_prompt_hint": "medium shot, young woman with pastel green hair stopping, realization moment, light beginning to glow, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 11,
@@ -33,7 +33,7 @@
       "mood": "enlightening",
       "visual_style": "천천히 줌인, 밝아지는 조명, 따뜻한 빛",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "close-up, young woman with pastel green hair, realization expression, slight smile forming, warm light, zoom in, anime style --ar 16:9 --niji 6 --cw 100"
+      "niji_prompt_hint": "close-up, young woman with pastel green hair, realization expression, slight smile forming, warm light, zoom in, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 12,
@@ -48,7 +48,7 @@
       "mood": "determined",
       "visual_style": "로우 앵글, 발밑에서 빛이 올라옴, 그린 파티클 시작",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "low angle shot, young woman with pastel green hair, green light particles rising from feet, determined expression, anime style --ar 16:9 --niji 6 --cw 100"
+      "niji_prompt_hint": "low angle shot, young woman with pastel green hair, green light particles rising from feet, determined expression, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 13,
@@ -63,7 +63,7 @@
       "mood": "transformative",
       "visual_style": "채도 100%, 밝기 100%, 화이트+골든+브라이트 그린 폭발, 기하학 패턴",
       "visual_motifs": ["빛 파티클", "기하학 패턴/마법진"],
-      "niji_prompt_hint": "magical transformation scene, young woman surrounded by hexagonal magic circle, white and golden light explosion, green particles, anime style --ar 16:9 --niji 6 --cw 100",
+      "niji_prompt_hint": "magical transformation scene, young woman surrounded by hexagonal magic circle, white and golden light explosion, green particles, anime style --ar 16:9 --niji 7",
       "is_key_scene": true,
       "importance_level": "high"
     },
@@ -80,7 +80,7 @@
       "mood": "magical",
       "visual_style": "헤어 디테일 강조, 빛 반사, 슬로우 모션 느낌",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "close-up of long pastel green hair flowing, bright vibrant color, light reflection, magical transformation, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "close-up of long pastel green hair flowing, bright vibrant color, light reflection, magical transformation, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 15,
@@ -95,7 +95,7 @@
       "mood": "powerful",
       "visual_style": "360도 회전 카메라 워크, 의상 디테일 강조",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "magical girl transformation, white and green combat outfit appearing, green ribbons, 360 rotation, anime style --ar 16:9 --niji 6 --cw 100"
+      "niji_prompt_hint": "magical girl transformation, white and green combat outfit appearing, green ribbons, 360 rotation, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 16,
@@ -110,7 +110,7 @@
       "mood": "heroic",
       "visual_style": "최고 밝기, 빛 파티클 폭발, 임팩트 있는 포즈",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "transformed magical girl, long pastel green hair, white and green combat outfit, holding glowing green sword, heroic pose, light particles explosion, anime style --ar 16:9 --niji 6 --cw 100",
+      "niji_prompt_hint": "transformed magical girl, long pastel green hair, white and green combat outfit, holding glowing green sword, heroic pose, light particles explosion, anime style --ar 16:9 --niji 7",
       "is_key_scene": true,
       "importance_level": "critical"
     }

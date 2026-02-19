@@ -18,7 +18,7 @@
       "mood": "peaceful",
       "visual_style": "채도 60%, 밝기 85%, 파스텔 톤의 부드러운 조명, 신카이 마코토 스타일의 하늘",
       "visual_motifs": ["꽃잎", "나무", "기차 선로"],
-      "niji_prompt_hint": "aerial view of peaceful Japanese countryside village, pastel colors, soft afternoon light, train tracks, wooden houses, spring season, anime style, Studio Ghibli inspired --ar 16:9 --niji 6"
+      "niji_prompt_hint": "aerial view of peaceful Japanese countryside village, pastel colors, soft afternoon light, train tracks, wooden houses, spring season, anime style, Studio Ghibli inspired --ar 16:9 --niji 7"
     },
     {
       "shot_number": 2,
@@ -33,7 +33,7 @@
       "mood": "calm",
       "visual_style": "측면 트래킹 샷, 부드러운 자연광, 배경은 약간 블러 처리",
       "visual_motifs": ["꽃잎"],
-      "niji_prompt_hint": "young woman with pastel green shoulder-length hair, white blouse and beige pants, walking on rural road, side view medium shot, gentle breeze, soft natural lighting, anime style --ar 16:9 --niji 6 --cw 100"
+      "niji_prompt_hint": "young woman with pastel green shoulder-length hair, white blouse and beige pants, walking on rural road, side view medium shot, gentle breeze, soft natural lighting, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 3,
@@ -48,7 +48,7 @@
       "mood": "contemplative",
       "visual_style": "신호등에 초점, 배경 아웃 오브 포커스, 따뜻한 오후 조명",
       "visual_motifs": ["신호등"],
-      "niji_prompt_hint": "close-up of traffic light blinking, soft bokeh background with girl silhouette, warm afternoon glow, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "close-up of traffic light blinking, soft bokeh background with girl silhouette, warm afternoon glow, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 4,
@@ -63,7 +63,7 @@
       "mood": "contemplative",
       "visual_style": "부드러운 역광, 꽃잎이 빛을 반사하며 날림, 섬세한 얼굴 묘사",
       "visual_motifs": ["꽃잎", "빛 파티클"],
-      "niji_prompt_hint": "close-up portrait, young woman with pastel green wavy hair, blue eyes, contemplative expression, flower petals floating, soft backlight, anime style, detailed facial features --ar 16:9 --niji 6 --cw 100",
+      "niji_prompt_hint": "close-up portrait, young woman with pastel green wavy hair, blue eyes, contemplative expression, flower petals floating, soft backlight, anime style, detailed facial features --ar 16:9 --niji 7",
       "is_key_scene": true
     },
     {
@@ -79,7 +79,7 @@
       "mood": "transitional",
       "visual_style": "기차를 따라가는 팬 샷, 선로와 주변 풍경",
       "visual_motifs": ["기차"],
-      "niji_prompt_hint": "small local train passing on railroad tracks, rural Japanese countryside, side panning shot, soft colors, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "small local train passing on railroad tracks, rural Japanese countryside, side panning shot, soft colors, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 6,
@@ -94,7 +94,7 @@
       "mood": "melancholic",
       "visual_style": "앞에서 약간 위에서 내려다보는 앵글, 그림자가 얼굴에 드리움",
       "visual_motifs": [],
-      "niji_prompt_hint": "medium shot, young woman with pastel green hair, hand on chest, head slightly down, melancholic expression, soft shadows, anime style --ar 16:9 --niji 6 --cw 100"
+      "niji_prompt_hint": "medium shot, young woman with pastel green hair, hand on chest, head slightly down, melancholic expression, soft shadows, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 7,
@@ -109,7 +109,7 @@
       "mood": "lonely",
       "visual_style": "뒤에서 바라보는 롱 샷, 배경에 초점을 맞춰 히카리의 외로움 강조",
       "visual_motifs": ["나무"],
-      "niji_prompt_hint": "back view, young woman with pastel green hair walking away on rural road, trees and grass field background, lonely atmosphere, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "back view, young woman with pastel green hair walking away on rural road, trees and grass field background, lonely atmosphere, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 8,
@@ -124,7 +124,7 @@
       "mood": "introspective",
       "visual_style": "유리 반사 효과, 약간의 왜곡, 내면의 혼란 암시",
       "visual_motifs": [],
-      "niji_prompt_hint": "reflection in window glass, young woman with pastel green hair, slightly distorted reflection, introspective mood, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "reflection in window glass, young woman with pastel green hair, slightly distorted reflection, introspective mood, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 9,
@@ -139,7 +139,7 @@
       "mood": "confused",
       "visual_style": "극단적 클로즈업, 눈동자의 디테일, 약간 어두운 톤",
       "visual_motifs": [],
-      "niji_prompt_hint": "extreme close-up of blue eye, reflection of girl in pupil, slight movement, emotional confusion, detailed iris, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "extreme close-up of blue eye, reflection of girl in pupil, slight movement, emotional confusion, detailed iris, anime style --ar 16:9 --niji 7"
     }
   ]
 }

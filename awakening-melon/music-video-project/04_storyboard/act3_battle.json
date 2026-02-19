@@ -18,7 +18,7 @@
       "mood": "ominous",
       "visual_style": "톤이 어두워짐, 대비가 강해짐",
       "visual_motifs": [],
-      "niji_prompt_hint": "open field near village, ominous shadow appearing, dramatic lighting contrast, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "open field near village, ominous shadow appearing, dramatic lighting contrast, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 18,
@@ -33,7 +33,7 @@
       "mood": "intimidating",
       "visual_style": "로우 앵글, 압도적 스케일, 다크 퍼플 vs 배경의 밝은 톤 대비",
       "visual_motifs": [],
-      "niji_prompt_hint": "low angle view of giant monster legs, kaiju-style creature, dark purple and black, towering size, ominous aura, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "low angle view of giant monster legs, kaiju-style creature, dark purple and black, towering size, ominous aura, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 19,
@@ -48,7 +48,7 @@
       "mood": "menacing",
       "visual_style": "로우 앵글, 괴수의 압도적 크기 강조, 마을을 지켜야 함을 암시",
       "visual_motifs": [],
-      "niji_prompt_hint": "full shot of giant kaiju monster, godzilla-style dinosaur, dark purple scales, red glowing eyes, towering over landscape, village in background, anime style --ar 16:9 --niji 6",
+      "niji_prompt_hint": "full shot of giant kaiju monster, godzilla-style dinosaur, dark purple scales, red glowing eyes, towering over landscape, village in background, anime style --ar 16:9 --niji 7",
       "is_key_scene": true,
       "importance_level": "high"
     },
@@ -65,7 +65,7 @@
       "mood": "tense",
       "visual_style": "하이 앵글, 스케일 대비 극대화, 작은 히카리 vs 거대 괴수",
       "visual_motifs": [],
-      "niji_prompt_hint": "high angle view, small magical girl with green hair vs giant monster, scale contrast, dramatic composition, anime style --ar 16:9 --niji 6 --cw 100",
+      "niji_prompt_hint": "high angle view, small magical girl with green hair vs giant monster, scale contrast, dramatic composition, anime style --ar 16:9 --niji 7",
       "is_key_scene": true,
       "importance_level": "high"
     },
@@ -82,7 +82,7 @@
       "mood": "dynamic",
       "visual_style": "빠른 팬, 스피드 라인, 그린 빛 궤적, 임팩트 프레임",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "dynamic action shot, magical girl swinging glowing green sword, large green energy arc, speed lines, Slayers anime style magic effect --ar 16:9 --niji 6 --cw 100",
+      "niji_prompt_hint": "dynamic action shot, magical girl swinging glowing green sword, large green energy arc, speed lines, Slayers anime style magic effect --ar 16:9 --niji 7",
       "is_key_scene": true,
       "importance_level": "high"
     },
@@ -99,7 +99,7 @@
       "mood": "explosive",
       "visual_style": "폭발 이펙트, 그린 마법 vs 다크 퍼플 괴수 충돌, 과장된 표현",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "explosion impact, green magic energy hitting dark purple monster, dramatic color contrast, anime style exaggerated effect --ar 16:9 --niji 6"
+      "niji_prompt_hint": "explosion impact, green magic energy hitting dark purple monster, dramatic color contrast, anime style exaggerated effect --ar 16:9 --niji 7"
     },
     {
       "shot_number": 23,
@@ -114,7 +114,7 @@
       "mood": "determined",
       "visual_style": "강한 조명, 얼굴 디테일 강조, 땀방울 반짝임",
       "visual_motifs": [],
-      "niji_prompt_hint": "close-up, determined expression, magical girl with long pastel green hair, strong eyes, sweat drop, intense lighting, anime style --ar 16:9 --niji 6 --cw 100"
+      "niji_prompt_hint": "close-up, determined expression, magical girl with long pastel green hair, strong eyes, sweat drop, intense lighting, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 24,
@@ -129,7 +129,7 @@
       "mood": "powerful",
       "visual_style": "마법진 펼쳐짐, 그린 빛 강렬, 과장된 이펙트",
       "visual_motifs": ["빛 파티클", "기하학 패턴/마법진"],
-      "niji_prompt_hint": "magical girl extending hand forward, large green magic circle forming, powerful magic casting, Slayers style, dramatic effect, anime style --ar 16:9 --niji 6 --cw 100",
+      "niji_prompt_hint": "magical girl extending hand forward, large green magic circle forming, powerful magic casting, Slayers style, dramatic effect, anime style --ar 16:9 --niji 7",
       "is_key_scene": true,
       "importance_level": "high"
     },
@@ -146,7 +146,7 @@
       "mood": "climactic",
       "visual_style": "거대한 빛 기둥, 스케일 강조, 그린 빛이 화면 가득",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "massive green light beam shooting toward monster, overwhelming magical power, large scale, anime style, Slayers inspiration --ar 16:9 --niji 6",
+      "niji_prompt_hint": "massive green light beam shooting toward monster, overwhelming magical power, large scale, anime style, Slayers inspiration --ar 16:9 --niji 7",
       "is_key_scene": true,
       "importance_level": "critical"
     },
@@ -163,7 +163,7 @@
       "mood": "triumphant",
       "visual_style": "어둠이 빛으로 전환, 괴수 소멸, 하늘이 밝아짐",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "monster dissolving in green light, darkness fading, sky brightening, triumphant moment, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "monster dissolving in green light, darkness fading, sky brightening, triumphant moment, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 27,
@@ -178,7 +178,7 @@
       "mood": "relief",
       "visual_style": "부드러운 조명으로 전환, 긴장 완화",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "medium shot, exhausted magical girl lowering sword, long green hair flowing in wind, relieved expression, soft lighting, anime style --ar 16:9 --niji 6 --cw 100"
+      "niji_prompt_hint": "medium shot, exhausted magical girl lowering sword, long green hair flowing in wind, relieved expression, soft lighting, anime style --ar 16:9 --niji 7"
     }
   ]
 }

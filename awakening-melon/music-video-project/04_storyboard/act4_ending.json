@@ -18,7 +18,7 @@
       "mood": "transitional",
       "visual_style": "빛이 부드럽게 사라짐, 채도 낮아짐",
       "visual_motifs": ["빛 파티클"],
-      "niji_prompt_hint": "green light particles fading away, magical transformation ending, soft transition, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "green light particles fading away, magical transformation ending, soft transition, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 29,
@@ -33,7 +33,7 @@
       "mood": "calm",
       "visual_style": "일상적인 조명으로 복귀, 채도 60-70%",
       "visual_motifs": [],
-      "niji_prompt_hint": "young woman with shoulder-length pastel green hair, white blouse and beige pants, transformation ended, calm atmosphere, anime style --ar 16:9 --niji 6 --cw 100"
+      "niji_prompt_hint": "young woman with shoulder-length pastel green hair, white blouse and beige pants, transformation ended, calm atmosphere, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 30,
@@ -48,7 +48,7 @@
       "mood": "hopeful",
       "visual_style": "채도 85%, 밝기 95%, 생동감 있는 색채, 처음보다 밝음",
       "visual_motifs": ["나무", "꽃잎"],
-      "niji_prompt_hint": "bright countryside village, sunlight shining brightly, trees swaying vividly, more vibrant than opening, hopeful atmosphere, anime style --ar 16:9 --niji 6"
+      "niji_prompt_hint": "bright countryside village, sunlight shining brightly, trees swaying vividly, more vibrant than opening, hopeful atmosphere, anime style --ar 16:9 --niji 7"
     },
     {
       "shot_number": 31,
@@ -63,7 +63,7 @@
       "mood": "beautiful",
       "visual_style": "꽃잎 디테일, 빛 반사, 슬로우 모션 느낌, 아름다움 강조",
       "visual_motifs": ["꽃잎", "빛 파티클"],
-      "niji_prompt_hint": "close-up of flower petals floating, reflecting sunlight, more vibrant and sparkling than opening, beautiful detail, anime style --ar 16:9 --niji 6",
+      "niji_prompt_hint": "close-up of flower petals floating, reflecting sunlight, more vibrant and sparkling than opening, beautiful detail, anime style --ar 16:9 --niji 7",
       "is_key_scene": true,
       "importance_level": "high",
       "callback_to": "Shot 4 (꽃잎 대비 - 처음보다 생동감 있음)"
@@ -81,7 +81,7 @@
       "mood": "serene",
       "visual_style": "신호등이 더 밝게 빛남, 따뜻한 느낌",
       "visual_motifs": ["신호등"],
-      "niji_prompt_hint": "traffic light blinking brighter than before, warm glow, same daily life but different feeling, anime style --ar 16:9 --niji 6",
+      "niji_prompt_hint": "traffic light blinking brighter than before, warm glow, same daily life but different feeling, anime style --ar 16:9 --niji 7",
       "callback_to": "Shot 3 (같은 신호등이지만 더 밝게)"
     },
     {
@@ -97,7 +97,7 @@
       "mood": "happy",
       "visual_style": "부드러운 트래킹 샷, 밝은 표정, 따뜻한 조명",
       "visual_motifs": ["꽃잎"],
-      "niji_prompt_hint": "medium shot, young woman with pastel green hair smiling brightly while walking, happier expression than opening, warm lighting, anime style --ar 16:9 --niji 6 --cw 100",
+      "niji_prompt_hint": "medium shot, young woman with pastel green hair smiling brightly while walking, happier expression than opening, warm lighting, anime style --ar 16:9 --niji 7",
       "is_key_scene": true,
       "importance_level": "high",
       "callback_to": "Shot 2 (같은 시골길이지만 무표정→밝은 미소)"
@@ -115,7 +115,7 @@
       "mood": "hopeful",
       "visual_style": "기차를 따라가는 팬, 밝은 색채, 희망찬 분위기",
       "visual_motifs": ["기차"],
-      "niji_prompt_hint": "local train passing with more vivid colors, hopeful atmosphere, brighter than opening, anime style --ar 16:9 --niji 6",
+      "niji_prompt_hint": "local train passing with more vivid colors, hopeful atmosphere, brighter than opening, anime style --ar 16:9 --niji 7",
       "callback_to": "Shot 5 (같은 기차지만 더 밝은 색채)"
     },
     {
@@ -131,7 +131,7 @@
       "mood": "serene",
       "visual_style": "버드 아이 뷰, 빛 파티클이 마을 전체로, 최고 밝기, 천천히 페이드 아웃",
       "visual_motifs": ["빛 파티클", "꽃잎", "나무", "기차"],
-      "niji_prompt_hint": "aerial bird's eye view of village, green light particles spreading across entire town, everything sparkling, peaceful ending, fade out, anime style --ar 16:9 --niji 6",
+      "niji_prompt_hint": "aerial bird's eye view of village, green light particles spreading across entire town, everything sparkling, peaceful ending, fade out, anime style --ar 16:9 --niji 7",
       "is_key_scene": true,
       "importance_level": "critical",
       "callback_to": "Shot 1 (같은 버드 아이 뷰지만 모든 것이 빛남)"
